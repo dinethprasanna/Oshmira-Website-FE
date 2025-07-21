@@ -1,0 +1,320 @@
+@font-face {
+  font-family: 'inter';
+  src: url("../src/assets/fonts/Inter_18pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'inter-medium';
+  src: url("../src/assets/fonts/Inter_18pt-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'inter-thin';
+  src: url("../src/assets/fonts/Inter_18pt-Thin.ttf");
+}
+
+@font-face {
+  font-family: 'inter-light';
+  src: url("../src/assets/fonts/Inter_18pt-Light.ttf");
+}
+
+@font-face {
+  font-family: 'inter-semibold';
+  src: url("../src/assets/fonts/Inter_18pt-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'inter-bold';
+  src: url("../src/assets/fonts/Inter_18pt-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'inter-extrabold';
+  src: url("../src/assets/fonts/Inter_18pt-ExtraBold.ttf");
+}
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font: 'inter', sans-serif;
+  --font-inter: 'inter', sans-serif;
+  --font-inter-medium: 'inter-medium', sans-serif;
+  --font-inter-thin: 'inter-thin', sans-serif;
+  --font-inter-light: 'inter-light', sans-serif;
+  --font-inter-semibold: 'inter-semibold', sans-serif;
+  --font-inter-bold: 'inter-bold', sans-serif;
+  --font-inter-extrabold: 'inter-extrabold', sans-serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+  --max-width: 1440px;
+  --prime-btn-bg-gradient: linear-gradient(180deg, rgba(255, 119, 45, 1) 0%, rgba(255, 21, 0, 1) 83%);
+  --prime-btn-bg-gradient-hover: linear-gradient(180deg, rgb(240, 104, 31) 0%, rgb(218, 22, 4) 83%);
+  --bg-second-col: #090909;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+body {
+  font-family: 'inter', sans-serif;
+  background-color: #010101;
+}
+
+
+/*============================= Global styles Classes - Start =================================*/
+/*== gradient text animation ==*/
+.gradient-text-anime {
+  color: #595BD4;
+  background-image: -webkit-linear-gradient(160deg, #595BD4, #F24E1E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 12s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+/*====== Shine effect - Start ========*/
+.shine-card-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine-card-overlay:hover .shine-card {
+  display: block;
+}
+
+.shine-card {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0;
+  transform: skew(30deg);
+  animation: shine 0.75s linear 1;
+}
+
+@keyframes shine {
+  0% {
+    left: -50%;
+    opacity: 0;
+  }
+  50% {
+    left: 25%;
+    opacity: 0.5;
+  }
+  100% {
+    left: 100%;
+    opacity: 0;
+  }
+}
+/*====== Shine effect - End   ========*/
+/*============================= Global styles Classes - End   =================================*/
+
+
+/*============ Header Styles - start =================*/
+.nav-animate-border {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  background: linear-gradient(90deg, #12f395 0%, #e93d08 30.43%, #07adee 68.23%, #f70f7b 100%);
+  background-size: 600% 600%;
+  animation: AnimateBorder 12s ease infinite;
+  -webkit-animation: AnimateBorder 12s ease infinite;
+  -moz-animation: AnimateBorder 12s ease infinite;
+  z-index: -1;
+  transform: translate(-1px, -2px);
+  transition: filter 1s ease-in;
+  filter: blur(1px);
+}
+
+@-webkit-keyframes AnimateBorder {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes AnimateBorder {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes AnimateBorder {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+/*============ Header Styles - End  =================*/
+
+/*============ Home Styles - start =================*/
+
+.lottie-container {
+  filter: brightness(0.2) blur(0.2px);
+  transform: scale(1.5);
+}
+
+.singleCard {
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.singleCard:hover {
+    transform: scale(1.02);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px 5px #fe3615;
+}
+
+/*============ Home Styles - End  =================*/
