@@ -174,6 +174,9 @@ body {
 
 
 /*============================= Global styles Classes - Start =================================*/
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
 /*== gradient text animation ==*/
 .gradient-text-anime {
   color: #595BD4;
@@ -192,6 +195,7 @@ body {
     -webkit-filter: hue-rotate(-360deg);
   }
 }
+
 /*====== Shine effect - Start ========*/
 .shine-card-overlay {
   position: relative;
@@ -210,8 +214,8 @@ body {
   width: 100%;
   height: 100%;
   background: #fff;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%);
   pointer-events: none;
   z-index: 3;
   opacity: 0;
@@ -224,15 +228,85 @@ body {
     left: -50%;
     opacity: 0;
   }
+
   50% {
     left: 25%;
     opacity: 0.5;
   }
+
   100% {
     left: 100%;
     opacity: 0;
   }
 }
+
+
+/*==label border-animation==*/
+.label-border-animation {
+    position: relative;
+    z-index: 0;
+    height: 40px;
+    overflow: hidden;
+    border: none !important;
+    padding: 0 !important;
+    background: var(--bg-second-col) !important;
+    color: #656565;
+    background: white;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0 4px 50px 0 rgb(0 0 0 / 7%);
+    transition: .2s all linear;
+    text-decoration: initial;
+}
+
+.label-border-animation p{
+    position: relative;
+    z-index: 1;
+    height: calc( 100% - 4px );
+    width: calc( 100% - 4px );
+    top: 2px;
+    left: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    background: var(--bg-second-col);
+}
+
+.label-border-animation:after{
+   content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0)    0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    -webkit-animation: rotate 2s linear infinite;
+    animation: rotate 2s linear infinite;
+}
+
+
+@-webkit-keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /*====== Shine effect - End   ========*/
 /*============================= Global styles Classes - End   =================================*/
 
@@ -307,14 +381,48 @@ body {
 }
 
 .singleCard {
-    transition: 0.3s all;
-    cursor: pointer;
+  transition: 0.3s all;
+  cursor: pointer;
 }
 
-.singleCard:hover {
+
+
+
+@media (min-width:990px) {
+  .singleCard:hover {
     transform: scale(1.02);
     transform: scale(1.05);
-    box-shadow: 0px 0px 8px 5px #fe3615;
+    box-shadow: 0px 0px 4px 2px #fe3615;
+  }
+
+  .lottie-container {
+    top: 0;
+    bottom: 0;
+    left: -62vw;
+    width: 228vw;
+    height: 100%;
+  }
+}
+
+
+@media (min-width: 620px) and (max-width:989px) {
+  .lottie-container {
+    top: 0;
+    bottom: 0;
+    left: -84vw;
+    width: 270vw;
+    height: 100%;
+  }
+}
+
+@media (max-width:619px) {
+  .lottie-container {
+    top: 0;
+    bottom: 0;
+    left: -256vw;
+    width: 608vw;
+    height: 100%;
+  }
 }
 
 /*============ Home Styles - End  =================*/

@@ -26,7 +26,7 @@ function TechLogoSlider() {
           modules={[Autoplay]}
           breakpoints={{
             768: {
-              slidesPerView: 4,
+              slidesPerView: 5,
             },
             1024: {
               slidesPerView: 5,
@@ -39,6 +39,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/react-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -48,6 +49,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/figma-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -57,6 +59,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/tailwind-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -66,6 +69,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/php-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -75,6 +79,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/js-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -84,6 +89,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/angular-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -93,6 +99,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/flutter-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -102,6 +109,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/html-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -111,6 +119,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/js-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -120,6 +129,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/nodejs-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -129,6 +139,7 @@ function TechLogoSlider() {
                 src="../src/assets/icons/shopify-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>
@@ -138,6 +149,27 @@ function TechLogoSlider() {
                 src="../src/assets/icons/xd-logo.png"
                 alt="sample"
                 width="64px"
+                className='grayscale'
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="img-card">
+              <img
+                src="../src/assets/icons/next-js-logo.png"
+                alt="sample"
+                width="64px"
+                className='grayscale'
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="img-card">
+              <img
+                src="../src/assets/icons/google-cloud-logo.png"
+                alt="sample"
+                width="64px"
+                className='grayscale'
               />
             </div>
           </SwiperSlide>

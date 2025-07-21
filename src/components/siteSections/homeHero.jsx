@@ -55,11 +55,11 @@ function HomeHero() {
 
     return (
         <section className="">
-            <div className="relative w-full min-h-[60vh] overflow-hidden flex flex-col items-center justify-center">
+            <div className="home-hero-section relative w-full min-h-[60vh] overflow-hidden flex flex-col items-center justify-center">
                 {/* Lottie Background */}
                 <div
                     ref={containerRef}
-                    className="absolute top-0 bottom-0 left-[-28vw] right-[-5%] w-[160vw] h-[100%] pointer-events-none lottie-container"
+                    className="absolute pointer-events-none lottie-container"
                 />
 
                 {/* Overlay content */}
@@ -78,7 +78,7 @@ function HomeHero() {
 
                     <div className="btn-grp flex flex-col md:flex-row gap text-sm mb-12 md:mb-16 lg:mb-20">
                         <Link to={'/'}><Button>Get Started</Button></Link>
-                        <Link to={'/'}><Button variant="link" className="font-inter-semibold">View Our Services <img src="../src/assets/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
+                        <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="../src/assets/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
                     </div>
 
                     <div className="tech-logos-slider">

@@ -38,8 +38,8 @@ const cardData = [
 
 function HomeOurServices() {
     return (
-        <section className="relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
-            <div className="hero-label py-2 px-2 rounded-md bg-(--bg-second-col) block mb-5 max-w-fit min-w-[120px] md:min-w-[186px] mx-auto">
+        <section className="home-our-services relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
+            <div className="hero-label label-border-animation py-2 px-2 rounded-md bg-(--bg-second-col) block mb-6 max-w-fit min-w-[120px] md:min-w-[186px] mx-auto">
                 <p className="font-inter-semibold text-white text-xs text-center">
                     We Providing
                 </p>
@@ -63,7 +63,7 @@ function HomeOurServices() {
                 ))}
             </div>
             <div className="bottom-link mt-8 md:mt-12 lg:mt-16 flex justify-center">
-                <Link to={'/'}><Button variant="link" className="font-inter-semibold">View Our Services <img src="../src/assets/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
+                <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="../src/assets/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
             </div>
         </section>
     );

@@ -1,5 +1,8 @@
 import HomeHero from "@/components/siteSections/homeHero";
+import HomeOurPortfolio from "@/components/siteSections/homeOurPortfolio";
 import HomeOurServices from "@/components/siteSections/homeOurServices";
+import HomeTestimonial from "@/components/siteSections/homeTestimonial";
+import HomeWhyChooseUs from "@/components/siteSections/homeWhyChooseUs";
 
 function HomePage() {
     return (
@@ -7,9 +10,9 @@ function HomePage() {
             <main className="mx-auto w-full min-h-[100vh]">
                 <HomeHero />
                 <HomeOurServices />
-                {/* <div className="max-w-(--max-width) mx-auto w-full">
-                    this is home div 1
-                </div> */}
+                <HomeWhyChooseUs />
+                <HomeTestimonial />
+                <HomeOurPortfolio />
             </main>
         </>
     );
