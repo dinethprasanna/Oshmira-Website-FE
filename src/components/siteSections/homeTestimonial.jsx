@@ -19,31 +19,31 @@ const testimonials = [
         clientName: "James Warner",
         designation: "Product Manager",
         clientReview: "Top-notch service and constant support. I’m genuinely impressed!",
-        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile4.png"
     },
     {
         clientName: "Emily Tran",
         designation: "UX Designer",
         clientReview: "Their creative approach and quick turnarounds exceeded my expectations.",
-        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile3.png"
     },
     {
         clientName: "David Kim",
         designation: "CTO",
         clientReview: "We’ve collaborated on multiple projects and they always deliver beyond expectations.",
-        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile222.png"
     },
     {
         clientName: "Priya Desai",
         designation: "Business Analyst",
         clientReview: "Excellent communication and dedication throughout. Truly recommended!",
-        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile22.png"
     },
     {
         clientName: "Liam Gallagher",
         designation: "Founder, TechNova",
         clientReview: "Their team feels like an extension of ours. Great chemistry and output.",
-        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "../src/assets/pages/home/testimonial/sample-client-profile2.png"
     }
 ];
 
