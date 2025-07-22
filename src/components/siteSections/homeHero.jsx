@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from "gsap";
 import TextPlugin from "gsap/TextPlugin";
 import lottie from 'lottie-web';
-import animationData from '../../../public/pages/home/meshAnimation.json';
+import animationData from '/public/pages/home/meshAnimation.json';
 import { Button } from '../ui/button';
 import { Link } from 'react-router';
 import TechLogoSlider from './techLogoSlider';
@@ -80,7 +80,7 @@ function HomeHero() {
 
                     <div className="btn-grp flex flex-col md:flex-row gap text-sm mb-12 md:mb-16 lg:mb-20">
                         <Link to={'/'}><Button>Get Started</Button></Link>
-                        <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="../../../public/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
+                        <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
                     </div>
 
                     <div className="tech-logos-slider">

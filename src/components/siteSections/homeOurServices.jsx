@@ -5,32 +5,32 @@ import SingleCard from "./singleCard";
 
 const cardData = [
     {
-        image: '../../../public/icons/WebDevelopment.png',
+        image: '/icons/WebDevelopment.png',
         title: 'Web Development',
         description: 'Custom-built web solutions that streamline your operations, solve unique challenges, and fuel your growth.',
     },
     {
-        image: '../../../public/icons/AppDevelopemnt.png',
+        image: '/icons/AppDevelopemnt.png',
         title: 'App Development',
         description: 'High-performance mobile apps for accelerate your business growth and delight your users.',
     },
     {
-        image: '../../../public/icons/E-commerceSolutions.png',
+        image: '/icons/E-commerceSolutions.png',
         title: 'E-commerce Solutions',
         description: 'We build eCommerce platforms that showcase your products, convert visitors, and grow your brand.',
     },
     {
-        image: '../../../public/icons/UIUXDesign.png',
+        image: '/icons/UIUXDesign.png',
         title: 'UI/UX Design',
         description: 'SWe create digital experiences that users love. Intuitive, engaging designs that turn first-time visitors into loyal customers.',
     },
     {
-        image: '../../../public/icons/GraphicDesign.png',
+        image: '/icons/GraphicDesign.png',
         title: 'Graphic Design',
         description: 'From sleek vector designs to captivating 2D and 3D creations, we turn your vision into reality.',
     },
     {
-        image: '../../../public/icons/WebsiteSEO.png',
+        image: '/icons/WebsiteSEO.png',
         title: 'Website SEO',
         description: 'Enhancing website rankings and visibility through keyword strategies, content optimization, and technical SEO to drive organic traffic.',
     },
@@ -63,7 +63,7 @@ function HomeOurServices() {
                 ))}
             </div>
             <div className="bottom-link mt-8 md:mt-12 lg:mt-16 flex justify-center">
-                <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="../../../public/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
+                <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
             </div>
         </section>
     );

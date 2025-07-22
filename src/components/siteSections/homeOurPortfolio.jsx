@@ -14,27 +14,27 @@ const portfolioCards = [
     {
         portfolioName: "Veronisa Tour (Pvt)Ltd",
         portfolioUrl: "Veronisatours.lk",
-        portfolioImg: ".../../../public/pages/home/portfolio/site-1.png"
+        portfolioImg: "./pages/home/portfolio/site-1.png"
     },
     {
         portfolioName: "Veronisa Tour (Pvt)Ltd",
         portfolioUrl: "Veronisatours.lk",
-        portfolioImg: ".../../../public/pages/home/portfolio/site-2.png"
+        portfolioImg: "./pages/home/portfolio/site-2.png"
     },
     {
         portfolioName: "Veronisa Tour (Pvt)Ltd",
         portfolioUrl: "Veronisatours.lk",
-        portfolioImg: ".../../../public/pages/home/portfolio/site-3.png"
+        portfolioImg: "./pages/home/portfolio/site-3.png"
     },
     {
         portfolioName: "Veronisa Tour (Pvt)Ltd",
         portfolioUrl: "Veronisatours.lk",
-        portfolioImg: ".../../../public/pages/home/portfolio/site-4.png"
+        portfolioImg: "./pages/home/portfolio/site-4.png"
     },
     {
         portfolioName: "Veronisa Tour (Pvt)Ltd",
         portfolioUrl: "Veronisatours.lk",
-        portfolioImg: ".../../../public/pages/home/portfolio/site-5.png"
+        portfolioImg: "./pages/home/portfolio/site-5.png"
     },
 ];
 
@@ -94,17 +94,17 @@ function HomeOurPortfolio() {
                         style={{
                             boxShadow: 'inset -3px 3px 2px -2px rgba(255, 255, 255, 0.4)',
                         }}>
-                        <img src=".../../../public/icons/prev-arrow.png" alt="Previous" />
+                        <img src="./icons/prev-arrow.png" alt="Previous" />
                     </button>
                     <button className="swiper-next text-white cursor-pointer p-3 md:p-4 rounded-lg bg-(--bg-second-col) transition-all hover:bg-[#2a2a2a]"
                         style={{
                             boxShadow: 'rgba(255, 255, 255, 0.4) 3px 3px 2px -2px inset',
                         }}>
-                        <img src=".../../../public/icons/next-arrow.png" alt="Next" />
+                        <img src="./icons/next-arrow.png" alt="Next" />
                     </button>
                 </div>
                 <div className="see-more bottom-link flex justify-center">
-                    <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View More <img src=".../../../public/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
+                    <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View More <img src="./icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
                 </div>
             </div>
         </section>

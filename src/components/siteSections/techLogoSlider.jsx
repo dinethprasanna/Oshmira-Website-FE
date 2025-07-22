@@ -5,20 +5,20 @@ import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 
 const techLogoImages = [
-  '../../../public/icons/react-logo.png',
-  '../../../public/icons/figma-logo.png',
-  '../../../public/icons/tailwind-logo.png',
-  '../../../public/icons/php-logo.png',
-  '../../../public/icons/js-logo.png',
-  '../../../public/icons/angular-logo.png',
-  '../../../public/icons/flutter-logo.png',
-  '../../../public/icons/html-logo.png',
-  '../../../public/icons/js-logo.png',
-  '../../../public/icons/nodejs-logo.png',
-  '../../../public/icons/shopify-logo.png',
-  '../../../public/icons/xd-logo.png',
-  '../../../public/icons/next-js-logo.png',
-  '../../../public/icons/google-cloud-logo.png',
+  '/icons/react-logo.png',
+  '/icons/figma-logo.png',
+  '/icons/tailwind-logo.png',
+  '/icons/php-logo.png',
+  '/icons/js-logo.png',
+  '/icons/angular-logo.png',
+  '/icons/flutter-logo.png',
+  '/icons/html-logo.png',
+  '/icons/js-logo.png',
+  '/icons/nodejs-logo.png',
+  '/icons/shopify-logo.png',
+  '/icons/xd-logo.png',
+  '/icons/next-js-logo.png',
+  '/icons/google-cloud-logo.png',
 ];
 
 function TechLogoSlider() {

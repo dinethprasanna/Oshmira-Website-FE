@@ -13,37 +13,37 @@ const testimonials = [
         clientName: "Sarah Thompson",
         designation: "Marketing Lead",
         clientReview: "Working with this team has been a game-changer. Their attention to detail and passion truly show.",
-        clientImg: "../../../public/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
         clientName: "James Warner",
         designation: "Product Manager",
         clientReview: "Top-notch service and constant support. I’m genuinely impressed!",
-        clientImg: "../../../public/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
         clientName: "Emily Tran",
         designation: "UX Designer",
         clientReview: "Their creative approach and quick turnarounds exceeded my expectations.",
-        clientImg: "../../../public/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
         clientName: "David Kim",
         designation: "CTO",
         clientReview: "We’ve collaborated on multiple projects and they always deliver beyond expectations.",
-        clientImg: "../../../public/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
         clientName: "Priya Desai",
         designation: "Business Analyst",
         clientReview: "Excellent communication and dedication throughout. Truly recommended!",
-        clientImg: "../../../public/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
         clientName: "Liam Gallagher",
         designation: "Founder, TechNova",
         clientReview: "Their team feels like an extension of ours. Great chemistry and output.",
-        clientImg: "../../../public/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "/pages/home/testimonial/sample-client-profile.png"
     }
 ];
 
@@ -103,13 +103,13 @@ function HomeTestimonial() {
                     style={{
                         boxShadow: 'inset -3px 3px 2px -2px rgba(255, 255, 255, 0.4)',
                     }}>
-                    <img src="../../../public/icons/prev-arrow.png" alt="Previous" />
+                    <img src="/icons/prev-arrow.png" alt="Previous" />
                 </button>
                 <button className="swiper-next text-white cursor-pointer p-3 md:p-4 rounded-lg bg-(--bg-second-col) transition-all hover:bg-[#2a2a2a]"
                     style={{
                         boxShadow: 'rgba(255, 255, 255, 0.4) 3px 3px 2px -2px inset',
                     }}>
-                    <img src="../../../public/icons/next-arrow.png" alt="Next" />
+                    <img src="/icons/next-arrow.png" alt="Next" />
                 </button>
             </div>
         </section>
