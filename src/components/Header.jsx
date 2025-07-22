@@ -42,7 +42,7 @@ function Header() {
 
 
     return (
-        <header ref={headerContainerRef} className="site-header mx-auto w-full px-3 md:px-6 lg:px-4 fixed top-[16px] md:top-[24px] lg:top-[36px] text-white z-99">
+        <header ref={headerContainerRef} className="site-header mx-auto w-full max-w-full px-3 md:px-6 lg:px-4 fixed top-[16px] md:top-[24px] lg:top-[36px] text-white z-99">
             <div className="max-w-(--max-width) mx-auto w-full px-[18px] py-3 bg-(--bg-second-col) rounded-md relative">
                 {/* desktop nav */}
                 <div className="desktop-nav hidden lg:flex justify-between items-center gap-3">
