@@ -1,6 +1,6 @@
 const TestimonialCard = ({ clientName, designation, clientReview, clientImg }) => {
     return (
-        <div className="bg-(--bg-second-col) rounded-3xl p-6 lg:px-8 lg:py-16 min-h-[240px] max-w-[300px] md:max-w-[382px] lg:h-[324px] text-center w-full h-full block singleCard shine-card-overlay">
+        <div className="bg-(--bg-second-col) rounded-3xl p-6 lg:px-8 lg:py-16 min-h-[240px] max-w-[300px] md:max-w-[382px] lg:h-[324px] text-center w-full h-full block shine-card-overlay">
             <div className="flex flex-col justify-between h-full gap-4">
                 <p className="text-white text-left text-sm font-inter-thin min-h-[62px] max-h-full overflow-y-auto">{clientReview}</p>
 

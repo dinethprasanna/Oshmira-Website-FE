@@ -174,9 +174,16 @@ body {
 
 
 /*============================= Global styles Classes - Start =================================*/
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
 .swiper-wrapper {
   transition-timing-function: linear !important;
 }
+
 /*== gradient text animation ==*/
 .gradient-text-anime {
   color: #595BD4;
@@ -243,71 +250,86 @@ body {
 
 /*==label border-animation==*/
 .label-border-animation {
-    position: relative;
-    z-index: 0;
-    height: 40px;
-    overflow: hidden;
-    border: none !important;
-    padding: 0 !important;
-    background: var(--bg-second-col) !important;
-    color: #656565;
-    background: white;
-    border-radius: 8px;
-    width: 150px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    box-shadow: 0 4px 50px 0 rgb(0 0 0 / 7%);
-    transition: .2s all linear;
-    text-decoration: initial;
+  position: relative;
+  z-index: 0;
+  height: 40px;
+  overflow: hidden;
+  border: none !important;
+  padding: 0 !important;
+  background: var(--bg-second-col) !important;
+  color: #656565;
+  background: white;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0 4px 50px 0 rgb(0 0 0 / 7%);
+  transition: .2s all linear;
+  text-decoration: initial;
 }
 
-.label-border-animation p{
-    position: relative;
-    z-index: 1;
-    height: calc( 100% - 4px );
-    width: calc( 100% - 4px );
-    top: 2px;
-    left: 2px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-radius: 8px;
-    color: white;
-    background: var(--bg-second-col);
+.label-border-animation p {
+  position: relative;
+  z-index: 1;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  top: 2px;
+  left: 2px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  color: white;
+  background: var(--bg-second-col);
 }
 
-.label-border-animation:after{
-   content: "";
-    position: absolute;
-    z-index: -2;
-    left: -50%;
-    top: -50%;
-    width: 200%;
-    height: 200%;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: 50% 50%, 50% 50%;
-    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-    background-image: linear-gradient(90deg, rgba(255,255,255,0)    0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
-    -webkit-animation: rotate 2s linear infinite;
-    animation: rotate 2s linear infinite;
+.label-border-animation:after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 50% 50%, 50% 50%;
+  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+  -webkit-animation: rotate 2s linear infinite;
+  animation: rotate 2s linear infinite;
 }
 
 
 @-webkit-keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /*====== Shine effect - End   ========*/
+/*======CTA section - Start ==========*/
+.cta-gradient-bg {
+  background: #ED4E23;
+  background: linear-gradient(90deg, rgba(237, 78, 35, 1) 0%, rgba(89, 91, 212, 1) 100%);
+}
+
+@media (max-width:767px) {
+  .cta-info {
+    background-color: #0000009c;
+    margin: 32px 24px;
+    padding: 32px 24px;
+    border-radius: 12px;
+  }
+}
+
 /*============================= Global styles Classes - End   =================================*/
 
 

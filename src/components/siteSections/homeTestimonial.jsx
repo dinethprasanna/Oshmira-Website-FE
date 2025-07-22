@@ -77,8 +77,8 @@ function HomeTestimonial() {
                         },
                     }}
                     navigation={{
-                        nextEl: '.swiper-next',
-                        prevEl: '.swiper-prev',
+                        nextEl: '.testimonial-navs .swiper-next',
+                        prevEl: '.testimonial-navs .swiper-prev',
                     }}
                     className="!py-6"
                 >
@@ -98,7 +98,7 @@ function HomeTestimonial() {
                 </Swiper>
 
             </div>
-            <div className="slide-nav-btns flex flex-row gap-4">
+            <div className="slide-nav-btns testimonial-navs flex flex-row gap-4">
                 <button className="swiper-prev text-white cursor-pointer p-3 md:p-4 rounded-lg bg-(--bg-second-col) transition-all hover:bg-[#2a2a2a]"
                     style={{
                         boxShadow: 'inset -3px 3px 2px -2px rgba(255, 255, 255, 0.4)',
