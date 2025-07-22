@@ -14,10 +14,10 @@ function HomePage() {
                 <HomeHero />
                 <HomeOurServices />
                 <HomeWhyChooseUs />
-                <HomeTestimonial />
                 <HomeOurPortfolio />
                 <OurClientsLogoSlider />
                 <RantoPosSection />
+                <HomeTestimonial />
                 <CTA />
             </main>
         </>
