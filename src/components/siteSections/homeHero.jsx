@@ -22,7 +22,7 @@ function HomeHero() {
     ];
 
     useEffect(() => {
-        Aos.init({duration:1000});
+        Aos.init({duration:2000});
         // Register plugin
         gsap.registerPlugin(TextPlugin);
 
