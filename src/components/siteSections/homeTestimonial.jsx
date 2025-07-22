@@ -1,4 +1,4 @@
-import TestimonialCard from './TestimonialCard';
+import TestimonialCard from './testimonialCard';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
