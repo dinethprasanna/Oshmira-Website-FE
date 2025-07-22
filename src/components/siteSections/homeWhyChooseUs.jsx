@@ -1,11 +1,14 @@
 import { Link } from "react-router";
 import { Button } from "../ui/button";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function HomeWhyChooseUs() {
+    Aos.init({duration:1000});
     return (
         <section className="why-choose-us-section relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
             <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-x-[42px] lg:gap-x-[58px] text-white">
-                <div className="left-col col-span-1 md:col-span-2 flex flex-col items-center md:items-start">
+                <div className="left-col col-span-1 md:col-span-2 flex flex-col items-center md:items-start" data-aos="fade-right">
                     <div className="why-choose-us-label label-border-animation py-2 px-2 rounded-md bg-(--bg-second-col) block mb-6 max-w-fit min-w-[120px] md:min-w-[186px]">
                         <p className="font-inter-semibold text-white text-xs text-center">
                             Why us
@@ -19,7 +22,7 @@ function HomeWhyChooseUs() {
                         <Link to={'/'}><Button>Book a Call</Button></Link>
                     </div>
                 </div>
-                <div className="right-col col-span-1 md:col-span-3 grid grid-cols-1 gap-4 md:gap-6 h-fit">
+                <div className="right-col col-span-1 md:col-span-3 grid grid-cols-1 gap-4 md:gap-6 h-fit" data-aos="fade-left">
                     <div className="rounded-3xl shine-card-overlay px-4 md:px-8 lg:px-10 py-4 md:py-6 lg:py-8 flex flex-row gap-4 justify-start bg-(--bg-second-col) shadow-[-1px_1px_2px_rgba(255,255,255,0.4)_inset]">
                         <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">1.</div>
                         <div className="card-info text-white max-w-[594px]">

@@ -6,6 +6,8 @@ import animationData from '/public/pages/home/meshAnimation.json';
 import { Button } from '../ui/button';
 import { Link } from 'react-router';
 import TechLogoSlider from './techLogoSlider';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function HomeHero() {
     const containerRef = useRef(null);
@@ -20,6 +22,7 @@ function HomeHero() {
     ];
 
     useEffect(() => {
+        Aos.init({duration:1000});
         // Register plugin
         gsap.registerPlugin(TextPlugin);
 
@@ -65,8 +68,8 @@ function HomeHero() {
                 />
 
                 {/* Overlay content */}
-                <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-3 md:px-6 lg:px-4 mt-[120px] mb-[40px] lg:mt-[216px] lg:mb-[140px] max-w-(--max-width) mx-auto w-full">
-                    <div className="hero-label py-2 px-2 rounded-md bg-(--bg-second-col) flex flex-row gap-2 items-center mb-5">
+                <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-3 md:px-6 lg:px-4 mt-[120px] mb-[40px] lg:mt-[216px] lg:mb-[140px] max-w-(--max-width) mx-auto w-full" data-aos="zoom-in">
+                    <div className="hero-label py-2 px-2 rounded-md bg-(--bg-second-col) flex flex-row gap-2 items-center mb-5" >
                         <Button className="text-xs h-[22px]">New</Button>
                         <p className="font-inter-semibold text-white text-xs">
                             Shaping the Future of Identify

@@ -7,6 +7,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 import { Navigation } from 'swiper/modules';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const testimonials = [
     {
@@ -49,17 +51,18 @@ const testimonials = [
 
 
 function HomeTestimonial() {
+    Aos.init({duration:2000});
     return (
         <section className="home-testimonial-section relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
-            <div className="testimonial-label label-border-animation py-2 px-2 rounded-md bg-(--bg-second-col) block mb-6 max-w-fit min-w-[120px] md:min-w-[186px] mx-auto">
+            <div className="testimonial-label label-border-animation py-2 px-2 rounded-md bg-(--bg-second-col) block mb-6 max-w-fit min-w-[120px] md:min-w-[186px] mx-auto" data-aos="zoom-in">
                 <p className="font-inter-semibold text-white text-xs text-center">
                     Our Testimonial
                 </p>
             </div>
-            <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3">What Our <span className='gradient-text-anime'>Client</span> Say</h2>
-            <p className='text-base md:text-lg font-inter-thin text-white text-center max-w-[760px] mx-auto mb-6'>Our clients are the heartbeat of everything we do. Their stories inspire us, their trust drives us, and their feedback fuels our growth. Here’s what they have to say about working with us.</p>
+            <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3" data-aos="fade-up">What Our <span className='gradient-text-anime'>Client</span> Say</h2>
+            <p className='text-base md:text-lg font-inter-thin text-white text-center max-w-[760px] mx-auto mb-6' data-aos="fade-up">Our clients are the heartbeat of everything we do. Their stories inspire us, their trust drives us, and their feedback fuels our growth. Here’s what they have to say about working with us.</p>
 
-            <div className="testimonial-slider flex flex-wrap justify-center mt-6 md:mt-8 lg:mt-10">
+            <div className="testimonial-slider flex flex-wrap justify-center mt-6 md:mt-8 lg:mt-10" data-aos="fade-up">
                 {/* Swiper Slider */}
                 <Swiper
                     modules={[Navigation]}
@@ -98,7 +101,7 @@ function HomeTestimonial() {
                 </Swiper>
 
             </div>
-            <div className="slide-nav-btns testimonial-navs flex flex-row gap-4">
+            <div className="slide-nav-btns testimonial-navs flex flex-row gap-4" data-aos="fade-up">
                 <button className="swiper-prev text-white cursor-pointer p-3 md:p-4 rounded-lg bg-(--bg-second-col) transition-all hover:bg-[#2a2a2a]"
                     style={{
                         boxShadow: 'inset -3px 3px 2px -2px rgba(255, 255, 255, 0.4)',

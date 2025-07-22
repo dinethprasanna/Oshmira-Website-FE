@@ -1,17 +1,54 @@
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router";
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const headerContainerRef = useRef();
+
+    useGSAP(() => {
+        const q = gsap.utils.selector(headerContainerRef); // scoped selector
+
+        gsap.from(headerContainerRef.current, {
+            zoom: 0.8,
+            opacity: 0,
+            delay: 0.6,
+            ease: "power1.out",
+            y: 40,
+        });
+
+        gsap.from(q(".desk-nav-links a"), {
+            opacity: 0,
+            x: 0,
+            duration: 0.6,
+            delay: 0.5,
+            ease: "power1.out",
+            stagger: {
+                amount: 0.5,
+            },
+        });
+
+        gsap.from(q(".header-logo", "nav-btn1"), {
+            zoom: 0.8,
+            opacity: 0,
+            delay: 0.6,
+            y: 0,
+            ease: "power1.out",
+        });
+    }, { scope: headerContainerRef });
+
+
     return (
-        <header className="mx-auto w-full px-3 md:px-6 lg:px-4 fixed top-[16px] md:top-[24px] lg:top-[36px] text-white z-99">
+        <header ref={headerContainerRef} className="site-header mx-auto w-full px-3 md:px-6 lg:px-4 fixed top-[16px] md:top-[24px] lg:top-[36px] text-white z-99">
             <div className="max-w-(--max-width) mx-auto w-full px-[18px] py-3 bg-(--bg-second-col) rounded-md relative">
                 {/* desktop nav */}
                 <div className="desktop-nav hidden lg:flex justify-between items-center gap-3">
                     <div className="">
 
-                        <Link to="/" className="relative inline-block group w-fit">
+                        <Link to="/" className="header-logo relative inline-block group w-fit">
                             {/* Default image */}
                             <img
                                 src="/header/Oshmira-logo.png"
@@ -26,7 +63,7 @@ function Header() {
                             />
                         </Link>
                     </div>
-                    <div className="flex justify-center gap-6">
+                    <div className="desk-nav-links flex justify-center gap-6">
                         <Link to={'/'}>
                             <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Home</p>
                         </Link>
@@ -49,7 +86,7 @@ function Header() {
                             <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Contact us</p>
                         </Link>
                     </div>
-                    <div className="">
+                    <div className="nav-btn1">
                         <Link to={'/'}>
                             <Button >Get started</Button>
                         </Link>
