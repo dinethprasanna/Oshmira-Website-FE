@@ -12,7 +12,7 @@ function Footer() {
                             className="inline-flex items-center"
                         >
                             <img
-                                src="../src/assets/header/Oshmira-logo.png"
+                                src="../../../public/header/Oshmira-logo.png"
                                 alt="Oshmira"
                                 className="w-[92px] md:w-[120px] lg:w-[160px] opacity-100 group-hover:opacity-0 transition-all"
                             />

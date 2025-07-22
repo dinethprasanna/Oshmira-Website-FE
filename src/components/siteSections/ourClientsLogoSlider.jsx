@@ -5,18 +5,18 @@ import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 
 const clientLogoImages = [
-    '../src/assets/pages/home/brands-logo/virelia.png',
-    '../src/assets/pages/home/brands-logo/tour-lions.png',
-    '../src/assets/pages/home/brands-logo/asiacorp.png',
-    '../src/assets/pages/home/brands-logo/phoenix.png',
-    '../src/assets/pages/home/brands-logo/crossbridge.png',
-    '../src/assets/pages/home/brands-logo/kids-and-teens-medical-group.png',
-    '../src/assets/pages/home/brands-logo/angis-property-services.png',
-    '../src/assets/pages/home/brands-logo/kadamandiya.png',
-    '../src/assets/pages/home/brands-logo/healthylife-clinic.png',
-    '../src/assets/pages/home/brands-logo/global-trans-logistics.png',
-    '../src/assets/pages/home/brands-logo/dels-super.png',
-    '../src/assets/pages/home/brands-logo/st-joshep-hospital.png',
+    '../../../public/pages/home/brands-logo/virelia.png',
+    '../../../public/pages/home/brands-logo/tour-lions.png',
+    '../../../public/pages/home/brands-logo/asiacorp.png',
+    '../../../public/pages/home/brands-logo/phoenix.png',
+    '../../../public/pages/home/brands-logo/crossbridge.png',
+    '../../../public/pages/home/brands-logo/kids-and-teens-medical-group.png',
+    '../../../public/pages/home/brands-logo/angis-property-services.png',
+    '../../../public/pages/home/brands-logo/kadamandiya.png',
+    '../../../public/pages/home/brands-logo/healthylife-clinic.png',
+    '../../../public/pages/home/brands-logo/global-trans-logistics.png',
+    '../../../public/pages/home/brands-logo/dels-super.png',
+    '../../../public/pages/home/brands-logo/st-joshep-hospital.png',
 ];
 
 function OurClientsLogoSlider() {

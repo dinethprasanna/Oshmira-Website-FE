@@ -5,20 +5,20 @@ import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 
 const techLogoImages = [
-  '../src/assets/icons/react-logo.png',
-  '../src/assets/icons/figma-logo.png',
-  '../src/assets/icons/tailwind-logo.png',
-  '../src/assets/icons/php-logo.png',
-  '../src/assets/icons/js-logo.png',
-  '../src/assets/icons/angular-logo.png',
-  '../src/assets/icons/flutter-logo.png',
-  '../src/assets/icons/html-logo.png',
-  '../src/assets/icons/js-logo.png',
-  '../src/assets/icons/nodejs-logo.png',
-  '../src/assets/icons/shopify-logo.png',
-  '../src/assets/icons/xd-logo.png',
-  '../src/assets/icons/next-js-logo.png',
-  '../src/assets/icons/google-cloud-logo.png',
+  '../../../public/icons/react-logo.png',
+  '../../../public/icons/figma-logo.png',
+  '../../../public/icons/tailwind-logo.png',
+  '../../../public/icons/php-logo.png',
+  '../../../public/icons/js-logo.png',
+  '../../../public/icons/angular-logo.png',
+  '../../../public/icons/flutter-logo.png',
+  '../../../public/icons/html-logo.png',
+  '../../../public/icons/js-logo.png',
+  '../../../public/icons/nodejs-logo.png',
+  '../../../public/icons/shopify-logo.png',
+  '../../../public/icons/xd-logo.png',
+  '../../../public/icons/next-js-logo.png',
+  '../../../public/icons/google-cloud-logo.png',
 ];
 
 function TechLogoSlider() {

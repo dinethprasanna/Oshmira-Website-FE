@@ -10,7 +10,7 @@ function RantoPosSection() {
                     <p className="font-inter-light text-white text-center md:text-left text-base md:text-lg max-w-[496px] mb-6 mx-auto md:mx-0">
                         A smart, user-friendly billing system to manage sales, inventory, and customers - all in one place. Fast, reliable, and fully customizable for your business needs.
                     </p>
-                    <img src="../src/assets/global/ranto-pos-banner.png" alt="Ranto POS" className="block md:hidden max-w-[400px] mx-auto lg:max-w-full w-full h-auto mb-6" />
+                    <img src="../../../public/global/ranto-pos-banner.png" alt="Ranto POS" className="block md:hidden max-w-[400px] mx-auto lg:max-w-full w-full h-auto mb-6" />
                     <ul className="text-white text-left font-inter-thin text-sm md:text-base list-disc list-outside pl-5 ">
                         <li>Streamline your business operations</li>
                         <li>Print bills instantly and professionally</li>
@@ -22,7 +22,7 @@ function RantoPosSection() {
                     </div>
                 </div>
                 <div className="ranto-pos-banner col-span-1 md:col-span-2 lg:col-span-3 md:flex flex-col justify-center hidden">
-                    <img src="../src/assets/global/ranto-pos-banner.png" alt="Ranto POS" className="max-w-[400px] mx-auto lg:max-w-full w-full h-auto block" />
+                    <img src="../../../public/global/ranto-pos-banner.png" alt="Ranto POS" className="max-w-[400px] mx-auto lg:max-w-full w-full h-auto block" />
                 </div>
             </div>
         </section>

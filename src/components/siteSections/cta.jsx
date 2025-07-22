@@ -15,9 +15,9 @@ function CTA() {
                 </div>
                 <div className="cta-img col-span-1 absolute md:relative left-0 right-0 top-0 bottom-0 z-2">
                     
-                    <img src="../src/assets/global/cta-girl-on-phone.png" alt="Girl on phone" className="max-w-[420px] h-full w-auto md:max-w-full md:w-auto md:h-full block z-3 relative ml-auto" />
+                    <img src="../../../public/global/cta-girl-on-phone.png" alt="Girl on phone" className="max-w-[420px] h-full w-auto md:max-w-full md:w-auto md:h-full block z-3 relative ml-auto" />
                 </div>
-                <img src="../src/assets/global/cta-band.png" alt="Band" className="abslt-band absolute z-0 w-[504px] md:w-[624px] bottom-0 right-0 top-unset" />
+                <img src="../../../public/global/cta-band.png" alt="Band" className="abslt-band absolute z-0 w-[504px] md:w-[624px] bottom-0 right-0 top-unset" />
             </div>
         </section>
     )

@@ -14,13 +14,13 @@ function Header() {
                         <Link to="/" className="relative inline-block group w-fit">
                             {/* Default image */}
                             <img
-                                src="../src/assets/header/Oshmira-logo.png"
+                                src="../../../public/header/Oshmira-logo.png"
                                 alt="Oshmira"
                                 className="w-[100px] opacity-100 group-hover:opacity-0 transition-all"
                             />
                             {/* Hover image */}
                             <img
-                                src="../src/assets/header/Oshmira-logo-white.png"
+                                src="../../../public/header/Oshmira-logo-white.png"
                                 alt="Oshmira Hover"
                                 className="w-[100px] opacity-0 group-hover:opacity-100 absolute top-0 left-0 transition-all"
                             />
@@ -61,7 +61,7 @@ function Header() {
                     <Link to="/" className="relative inline-block group">
                         {/* Default logo */}
                         <img
-                            src="../src/assets/header/Oshmira-logo.png"
+                            src="../../../public/header/Oshmira-logo.png"
                             alt="Oshmira"
                             className="w-[90px]"
                         />
@@ -74,8 +74,8 @@ function Header() {
                         <img
                             src={
                                 isMobileMenuOpen
-                                    ? "../src/assets/header/hamburge-menu-close.png"
-                                    : "../src/assets/header/hamburge-menu.png"
+                                    ? "../../../public/header/hamburge-menu-close.png"
+                                    : "../../../public/header/hamburge-menu.png"
                             }
                             alt="Oshmira"
                             className="w-[24px] transition-all"
