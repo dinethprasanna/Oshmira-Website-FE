@@ -13,7 +13,7 @@ function NotFoundPage() {
 
                     <p className='text-base md:text-lg font-inter-light text-white max-w-[512px] mx-auto mb-6'>Oops! Page not found</p>
 
-                    <div className="btn-grp flex flex-col md:flex-row gap text-sm mb-12 md:mb-16 lg:mb-20">
+                    <div className="btn-grp flex flex-col md:flex-row gap-4 text-sm mb-12 md:mb-16 lg:mb-20">
                         <Link to={'/'}><Button>Back to Home</Button></Link>
                         <Link to={'/services'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
                     </div>

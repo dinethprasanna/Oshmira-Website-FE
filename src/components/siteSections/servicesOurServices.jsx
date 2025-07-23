@@ -49,11 +49,11 @@ function ServicesOurServices() {
             </div>
             <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3" data-aos="fade-up">Explore We offering for you</h2>
             
-            <div className="our-services-cards flex flex-wrap justify-center gap-4 lg:gap-y-[54px] lg:gap-x-[86px] mt-6 md:mt-12 lg:mt-16" data-aos="fade-up">
+            <div className="our-services-cards flex flex-wrap justify-center gap-4 lg:gap-y-[48px] lg:gap-x-[64px] mt-6 md:mt-12 lg:mt-16" data-aos="fade-up">
                 {cardData.map((card, index) => (
                     <div
                         key={index}
-                        className="w-full sm:w-[48%] max-w-[396px] block"
+                        className="w-full sm:w-[48%] lg:w-[45%]  max-w-[396px] block"
                     >
                         <SingleCard
                             image={card.image}

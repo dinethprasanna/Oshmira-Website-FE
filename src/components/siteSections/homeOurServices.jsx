@@ -51,11 +51,11 @@ function HomeOurServices() {
             <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[480px] mx-auto mb-6' data-aos="fade-up">Empowering Innovation with Expert Talent <br className="hidden lg:block" />
                 Precision Annotations, and Custom Web Solutions</p>
 
-            <div className="our-services-cards flex flex-wrap justify-center gap-4 lg:gap-y-[54px] lg:gap-x-[86px] mt-6 md:mt-12 lg:mt-16" data-aos="fade-up">
+            <div className="our-services-cards flex flex-wrap justify-center gap-4 lg:gap-y-[48px] lg:gap-x-[64px] mt-6 md:mt-12 lg:mt-16" data-aos="fade-up">
                 {cardData.map((card, index) => (
                     <div
                         key={index}
-                        className="w-full sm:w-[48%] max-w-[396px] block"
+                        className="w-full sm:w-[48%] lg:w-[45%] max-w-[396px] block"
                     >
                         <SingleCard
                             image={card.image}
