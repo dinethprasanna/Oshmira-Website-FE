@@ -51,7 +51,7 @@ function HomeOurPortfolio() {
                 </p>
             </div>
             <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3" data-aos="fade-up">Our <span className='gradient-text-anime'>Portfolio</span></h2>
-            <p className='text-base md:text-lg font-inter-thin text-white text-center max-w-[820px] mx-auto mb-6' data-aos="fade-up">Every pixel tells a story. Our work showcases a blend of strategy, creativity, and craft built not just to look good, but to deliver real results. Explore how we turn ideas into stunning digital experiences.</p>
+            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[820px] mx-auto mb-6' data-aos="fade-up">Every pixel tells a story. Our work showcases a blend of strategy, creativity, and craft built not just to look good, but to deliver real results. Explore how we turn ideas into stunning digital experiences.</p>
 
             <div className="portfolio-slider flex flex-wrap justify-center mt-4 md:mt-5 lg:mt-6" data-aos="fade-up">
                 {/* Swiper Slider */}

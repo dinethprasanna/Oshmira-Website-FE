@@ -10,7 +10,7 @@ import RantoPosSection from "@/components/siteSections/rantoPosSection";
 function HomePage() {
     return (
         <>
-            <main className="mx-auto w-full min-h-[100vh]">
+            <main className="mx-auto w-full min-h-[80vh]">
                 <HomeHero />
                 <HomeOurServices />
                 <HomeWhyChooseUs />

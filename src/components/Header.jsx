@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router";
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -8,6 +8,21 @@ function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const headerContainerRef = useRef();
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    // Handle scroll event
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 2) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     useGSAP(() => {
         const q = gsap.utils.selector(headerContainerRef); // scoped selector
@@ -73,14 +88,14 @@ function Header() {
                         <Link to={'/solutions'}>
                             <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Solutions</p>
                         </Link>
-                        <Link to={'/products'}>
-                            <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Products</p>
-                        </Link>
                         <Link to={'/services'}>
                             <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Services</p>
                         </Link>
                         <Link to={'/portfolio'}>
                             <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Portfolio</p>
+                        </Link>
+                        <Link to={'/products'}>
+                            <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Packages</p>
                         </Link>
                         <Link to={'/contact-us'}>
                             <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Contact us</p>
@@ -139,9 +154,9 @@ function Header() {
                     <Link to="/" className="block text-sm font-semibold text-white hover:text-orange-500">Home</Link>
                     <Link to="/about-us" className="block text-sm font-semibold text-white hover:text-orange-500">About us</Link>
                     <Link to="/solutions" className="block text-sm font-semibold text-white hover:text-orange-500">Solutions</Link>
-                    <Link to="/products" className="block text-sm font-semibold text-white hover:text-orange-500">Products</Link>
                     <Link to="/services" className="block text-sm font-semibold text-white hover:text-orange-500">Services</Link>
                     <Link to="/portfolio" className="block text-sm font-semibold text-white hover:text-orange-500">Portfolio</Link>
+                    <Link to="/products" className="block text-sm font-semibold text-white hover:text-orange-500">Packages</Link>
                     <Link to="/contact-us" className="block text-sm font-semibold text-white hover:text-orange-500">Contact us</Link>
                     <Link to="/">
                         <Button className="mt-2">Get started</Button>

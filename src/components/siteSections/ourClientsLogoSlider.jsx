@@ -31,7 +31,7 @@ function OurClientsLogoSlider() {
                 </p>
             </div>
             <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3" data-aos="fade-up">Our <span className='gradient-text-anime'>Clients</span></h2>
-            <p className='text-base md:text-lg font-inter-thin text-white text-center max-w-[640px] mx-auto mb-6' data-aos="fade-up">We’re proud to work with brands that value quality and creativity. Here are some of the clients we’ve partnered with over the years.</p>
+            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[640px] mx-auto mb-6' data-aos="fade-up">We’re proud to work with brands that value quality and creativity. Here are some of the clients we’ve partnered with over the years.</p>
 
             <div className="our-clients-logo-slider-wrapper max-w-[820px] mx-auto  px-2 rounded-2xl" data-aos="fade-up">
                 <Swiper
@@ -57,7 +57,7 @@ function OurClientsLogoSlider() {
                 >
                     {clientLogoImages.map((src, index) => (
                         <SwiperSlide key={index}>
-                            <div className="img-card overflow-hidden rounded-2xl singleCard">
+                            <div className="img-card overflow-hidden rounded-md singleCard">
                                 <img
                                     src={src}
                                     alt={`logo-${index}`}

@@ -16,7 +16,7 @@ function HomeWhyChooseUs() {
                     </div>
                     <h2 className="text-white text-center md:text-left font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3">Choose <span className='gradient-text-anime'>Oshmira <br className="hidden lg:block" />
                         Solutions</span></h2>
-                    <p className='text-base md:text-lg font-inter-thin text-white text-center md:text-left mb-6'>Our portfolio reflects our dedication to excellence and innovation, demonstrating the breadth and impact of our customized IT solutions.</p>
+                    <p className='text-base md:text-lg font-inter-light text-white text-center md:text-left mb-6'>Our portfolio reflects our dedication to excellence and innovation, demonstrating the breadth and impact of our customized IT solutions.</p>
 
                     <div className="btn-grp flex flex-col md:flex-row gap text-sm">
                         <Link to={'/'}><Button>Book a Call</Button></Link>
@@ -27,7 +27,7 @@ function HomeWhyChooseUs() {
                         <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">1.</div>
                         <div className="card-info text-white max-w-[594px]">
                             <h3 className="text-xl md:text-2xl text-white font-inter-semibold">Driven by Strategy</h3>
-                            <p className='text-base md:text-lg font-inter-thin text-white text-left mt-3 mb:mt-4'>We don’t just build software - we design solutions that solve real problems. Every project starts with strategic thinking and ends with measurable results.</p>
+                            <p className='text-base md:text-lg font-inter-light text-white text-left mt-3 mb:mt-4'>We don’t just build software - we design solutions that solve real problems. Every project starts with strategic thinking and ends with measurable results.</p>
                         </div>
                         <div className="shine-card"></div>
                     </div>
@@ -35,7 +35,7 @@ function HomeWhyChooseUs() {
                         <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">2.</div>
                         <div className="card-info text-white max-w-[594px]">
                             <h3 className="text-xl md:text-2xl text-white font-inter-semibold">User-First Design</h3>
-                            <p className='text-base md:text-lg font-inter-thin text-white text-left mt-3 mb:mt-4'>Our UI/UX process is backed by psychological research and user behavior insights. We create experiences that are not only beautiful but also functional and intuitive.</p>
+                            <p className='text-base md:text-lg font-inter-light text-white text-left mt-3 mb:mt-4'>Our UI/UX process is backed by psychological research and user behavior insights. We create experiences that are not only beautiful but also functional and intuitive.</p>
                         </div>
                         <div className="shine-card"></div>
                     </div>
@@ -43,7 +43,7 @@ function HomeWhyChooseUs() {
                         <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">3.</div>
                         <div className="card-info text-white max-w-[594px]">
                             <h3 className="text-xl md:text-2xl text-white font-inter-semibold">End-to-End Services</h3>
-                            <p className='text-base md:text-lg font-inter-thin text-white text-left mt-3 mb:mt-4'>From concept to launch and beyond—we handle everything. Whether it’s a website, app, or custom software, we deliver a full-stack solution under one roof.</p>
+                            <p className='text-base md:text-lg font-inter-light text-white text-left mt-3 mb:mt-4'>From concept to launch and beyond—we handle everything. Whether it’s a website, app, or custom software, we deliver a full-stack solution under one roof.</p>
                         </div>
                         <div className="shine-card"></div>
                     </div>

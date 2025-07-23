@@ -14,7 +14,7 @@ function RantoPosSection() {
                         A smart, user-friendly billing system to manage sales, inventory, and customers - all in one place. Fast, reliable, and fully customizable for your business needs.
                     </p>
                     <img src="/global/ranto-pos-banner.png" alt="Ranto POS" className="block md:hidden max-w-[400px] mx-auto lg:max-w-full w-full h-auto mb-6" />
-                    <ul className="text-white text-left font-inter-thin text-sm md:text-base list-disc list-outside pl-5 ">
+                    <ul className="text-white text-left font-inter-light text-sm md:text-base list-disc list-outside pl-5 ">
                         <li>Streamline your business operations</li>
                         <li>Print bills instantly and professionally</li>
                         <li>Track sales, inventory & customers -all in one place</li>

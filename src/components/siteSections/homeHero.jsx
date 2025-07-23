@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from "gsap";
 import TextPlugin from "gsap/TextPlugin";
 import lottie from 'lottie-web';
-import animationData from '/public/pages/home/meshAnimation.json';
+import animationData from '/src/assets/meshAnimation.json';
 import { Button } from '../ui/button';
 import { Link } from 'react-router';
 import TechLogoSlider from './techLogoSlider';
@@ -59,8 +59,8 @@ function HomeHero() {
     }, []);
 
     return (
-        <section className="">
-            <div className="home-hero-section relative w-full min-h-[60vh] overflow-hidden flex flex-col items-center justify-center">
+        <section className="home-hero-section">
+            <div className="relative w-full min-h-[60vh] overflow-hidden flex flex-col items-center justify-center">
                 {/* Lottie Background */}
                 <div
                     ref={containerRef}
@@ -78,7 +78,7 @@ function HomeHero() {
                     <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-inter-semibold mx-auto mb-8">Smart Digital Solutions <br className='hidden lg:block' />
                         For your{" "} <span className='gradient-text-anime' ref={homeHeaidngTextSpanRef}>Business Growth</span></h1>
 
-                    <p className='text-base md:text-lg font-inter-thin text-white max-w-[512px] mx-auto mb-6'>Expert development and  Ai Powered Annotation Solutions
+                    <p className='text-base md:text-lg font-inter-light text-white max-w-[512px] mx-auto mb-6'>Expert development and  Ai Powered Annotation Solutions
                         For a Smarter workforce and Better Data</p>
 
                     <div className="btn-grp flex flex-col md:flex-row gap text-sm mb-12 md:mb-16 lg:mb-20">

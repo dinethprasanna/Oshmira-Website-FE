@@ -174,7 +174,7 @@ body {
 }
 
 section {
-  overflow-x: hidden !important;
+  overflow: hidden !important;
 }
 
 
