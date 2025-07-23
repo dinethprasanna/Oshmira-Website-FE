@@ -14,6 +14,7 @@ import MainLayout from "@/layouts/main.layout";
 import HomePage from "@/pages/home.page";
 import AboutUsPage from "@/pages/aboutUs.page";
 import ServicesPage from './pages/services.page';
+import NotFoundPage from './pages/notFound.page';
 
 
 createRoot(document.getElementById('root')).render(
@@ -32,6 +33,11 @@ createRoot(document.getElementById('root')).render(
           {/* Site Logged User/Client Layout */}
 
           {/* Site Admin Layout */}
+
+          {/* 404 page inside MainLayout */}
+          <Route path="*" element={<NotFoundPage />} />
+
+
         </Route>
       </Routes>
     </BrowserRouter>
