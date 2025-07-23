@@ -44,7 +44,7 @@ function ServicesOurSubServices() {
                 {cardData.map((card, index) => (
                     <div
                         key={index}
-                        className="w-full sm:w-[48%] lg:w-[45%] max-w-[396px] block"
+                        className="w-full sm:w-[48%] lg:w-[29%] max-w-[396px] block"
                     >
                         <SingleCard
                             image={card.image}
