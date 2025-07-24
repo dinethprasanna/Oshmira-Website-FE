@@ -38,7 +38,7 @@ function BreadcrumbHeroSection({ title, gradientTitle, breadcrumb }) {
                     
                     <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-inter-semibold mx-auto mb-8">{title} <span className='gradient-text-anime'>{gradientTitle}</span></h1>
 
-                    <p className='text-base md:text-lg font-inter-thin text-white max-w-[512px] mx-auto mb-6'>{breadcrumb}</p>
+                    <p className='text-base md:text-lg font-inter-light text-white max-w-[512px] mx-auto mb-6'>{breadcrumb}</p>
 
                     
                 </div>

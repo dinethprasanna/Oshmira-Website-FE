@@ -15,6 +15,7 @@ import HomePage from "@/pages/home.page";
 import AboutUsPage from "@/pages/aboutUs.page";
 import ServicesPage from './pages/services.page';
 import NotFoundPage from './pages/notFound.page';
+import ContactUsPage from './pages/contactUs.page';
 
 
 createRoot(document.getElementById('root')).render(
@@ -28,6 +29,7 @@ createRoot(document.getElementById('root')).render(
             <Route path='/' element={<HomePage />} />
             <Route path='/about-us' element={<AboutUsPage />} />
             <Route path='/services' element={<ServicesPage />} />
+            <Route path='/contact-us' element={<ContactUsPage />} />
           </Route>
 
           {/* Site Logged User/Client Layout */}
