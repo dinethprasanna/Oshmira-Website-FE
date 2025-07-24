@@ -22,7 +22,7 @@ function AboutUsWorkingProcess() {
                 <div className="card-wrapper flex flex-col md:flex-row gap-6 md:gap-4 justify-evenly relative">
                     <div className="card p-4 w-full max-w-[100%] md:max-w-[312px] flex flex-row gap-3 md:block mx-auto relative z-2">
                         <div className="card-icon mr-3 md:mr-0 md:mb-7 w-[20%] md:w-auto">
-                            <img alt="Idea Generation" class="w-[116px] h-auto object-contain block mx-auto" src="/icons/idea-generation.png" />
+                            <img alt="Idea Generation" className="w-[116px] h-auto object-contain block mx-auto" src="/icons/idea-generation.png" />
                         </div>
                         <div className="card-info w-[80%] md:w-auto">
                             <h4 className="text-white text-base font-inter-semibold text-left md:text-center mb-[18px]">Idea Generation</h4>
@@ -31,7 +31,7 @@ function AboutUsWorkingProcess() {
                     </div>
                     <div className="card p-4 w-full max-w-[100%] md:max-w-[312px] flex flex-row gap-3 md:block mx-auto relative z-2">
                         <div className="card-icon mb-5 md:mb-7 w-[20%] md:w-auto">
-                            <img alt="Sketch & Design" class="w-[116px] h-auto object-contain block mx-auto" src="/icons/sketch-and-design.png" />
+                            <img alt="Sketch & Design" className="w-[116px] h-auto object-contain block mx-auto" src="/icons/sketch-and-design.png" />
                         </div>
                         <div className="card-info w-[80%] md:w-auto">
                             <h4 className="text-white text-base font-inter-semibold text-left md:text-center  mb-[18px]">Sketch & Design</h4>
@@ -40,7 +40,7 @@ function AboutUsWorkingProcess() {
                     </div>
                     <div className="card p-4 w-full max-w-[100%] md:max-w-[312px] flex flex-row gap-3 md:block mx-auto relative z-2">
                         <div className="card-icon mb-5 md:mb-7 w-[20%] md:w-auto">
-                            <img alt="Development" class="w-[116px] h-auto object-contain block mx-auto" src="/icons/development.png" />
+                            <img alt="Development" className="w-[116px] h-auto object-contain block mx-auto" src="/icons/development.png" />
                         </div>
                         <div className="card-info w-[80%] md:w-auto">
                             <h4 className="text-white text-base font-inter-semibold text-left md:text-center  mb-[18px]">Development</h4>
@@ -49,7 +49,7 @@ function AboutUsWorkingProcess() {
                     </div>
                     <div className="card p-4 w-full max-w-[100%] md:max-w-[312px] flex flex-row gap-3 md:block mx-auto relative z-2">
                         <div className="card-icon mb-5 md:mb-7 w-[20%] md:w-auto">
-                            <img alt="App Development" class="w-[116px] h-auto object-contain block mx-auto" src="/icons/testing-result.png" />
+                            <img alt="Testing Result" className="w-[116px] h-auto object-contain block mx-auto" src="/icons/testing-result.png" />
                         </div>
                         <div className="card-info w-[80%] md:w-auto">
                             <h4 className="text-white text-base font-inter-semibold text-left md:text-center  mb-[18px]">Testing Result</h4>

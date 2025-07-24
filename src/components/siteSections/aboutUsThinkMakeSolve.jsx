@@ -11,7 +11,7 @@ function AboutUsThinkMakeSolveSection() {
                 <div className="section-info col-span-1 lg:col-span-2 py-10 px-6 md:px-8 lg:px-12 md:py-10 lg:py-14 flex flex-col justify-center z-3">
                     <h2 className="text-white text-center md:text-left font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-4 lg:mb-5">Why work at Oshmira?</h2>
                     <div className="white-bg-quote bg-white p-6 md:px-8 md:py-6 w-fit mb-4 lg:mb-5 mx-auto md:mx-0">
-                        <p className="m-0 text-[#F24E1E] font-inter-semibold text-3xl md:text-4xl lg:text-5xl">Think. Make. Solve.</p>
+                        <p className="m-0 text-[#F24E1E] font-inter-semibold text-3xl md:text-4xl lg:text-5xl text-center md:text-left">Think. Make. Solve.</p>
                     </div>
                     <p className="font-inter-light text-white text-center md:text-left text-base md:text-lg max-w-[520px] mb-6 mx-auto md:mx-0">Discover why leading businesses trust Oshmira Solutions to elevate their digital landscapes. Our portfolio reflects our dedication to excellence and innovation, demonstrating the breadth and impact of our customized IT solutions.Let's Talk</p>
                     <div className="bottom-link flex justify-center md:justify-start ">

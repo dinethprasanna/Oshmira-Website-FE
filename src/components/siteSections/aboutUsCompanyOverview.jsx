@@ -45,7 +45,7 @@ function AboutUsCompanyOverview() {
                     <div className="flex flex-col justify-center h-full gap-6">
                         <div className="rounded-3xl shine-card-overlay px-4 md:px-8 lg:px-10 py-4 md:py-6 lg:py-8 flex flex-row gap-4 justify-start bg-(--bg-second-col) shadow-[-1px_1px_2px_rgba(255,255,255,0.4)_inset]">
                             <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">
-                                <img alt="App Development" class="w-[58px] h-auto object-contain" src="/icons/our-vision.png" />
+                                <img alt="Our Vision" className="w-[58px] h-auto object-contain" src="/icons/our-vision.png" />
                             </div>
                             <div className="card-info text-white max-w-[594px]">
                                 <h3 className="text-xl md:text-2xl text-white font-inter-semibold">Our Vision</h3>
@@ -55,7 +55,7 @@ function AboutUsCompanyOverview() {
                         </div>
                         <div className="rounded-3xl shine-card-overlay px-4 md:px-8 lg:px-10 py-4 md:py-6 lg:py-8 flex flex-row gap-4 justify-start bg-(--bg-second-col) shadow-[-1px_1px_2px_rgba(255,255,255,0.4)_inset]">
                             <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">
-                                <img alt="App Development" class="w-[58px] h-auto object-contain" src="/icons/our-mission.png" />
+                                <img alt="Our Mission" className="w-[58px] h-auto object-contain" src="/icons/our-mission.png" />
                             </div>
                             <div className="card-info text-white max-w-[594px]">
                                 <h3 className="text-xl md:text-2xl text-white font-inter-semibold">Our Mission</h3>
@@ -65,7 +65,7 @@ function AboutUsCompanyOverview() {
                         </div>
                         <div className="rounded-3xl shine-card-overlay px-4 md:px-8 lg:px-10 py-4 md:py-6 lg:py-8 flex flex-row gap-4 justify-start bg-(--bg-second-col) shadow-[-1px_1px_2px_rgba(255,255,255,0.4)_inset]">
                             <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">
-                                <img alt="App Development" class="w-[58px] h-auto object-contain" src="/icons/our-goal.png" />
+                                <img alt="Our Goal" className="w-[58px] h-auto object-contain" src="/icons/our-goal.png" />
                             </div>
                             <div className="card-info text-white max-w-[594px]">
                                 <h3 className="text-xl md:text-2xl text-white font-inter-semibold">Our Goal</h3>
