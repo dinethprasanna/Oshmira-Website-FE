@@ -16,27 +16,32 @@ const portfolioCards = [
     {
         portfolioName: "Veronisa Tour (Pvt)Ltd",
         portfolioUrl: "Veronisatours.lk",
-        portfolioImg: "./pages/home/portfolio/site-1.png"
+        portfolioImg: "./pages/home/portfolio/veronisa-tour.png"
     },
     {
-        portfolioName: "Veronisa Tour (Pvt)Ltd",
-        portfolioUrl: "Veronisatours.lk",
-        portfolioImg: "./pages/home/portfolio/site-2.png"
+        portfolioName: "E-Kadamandiya (Pvt) Ltd",
+        portfolioUrl: "ekadamandiya.com",
+        portfolioImg: "./pages/home/portfolio/e-kadamandiya.png"
     },
     {
-        portfolioName: "Veronisa Tour (Pvt)Ltd",
-        portfolioUrl: "Veronisatours.lk",
-        portfolioImg: "./pages/home/portfolio/site-3.png"
+        portfolioName: "Booksevoke Institute",
+        portfolioUrl: "booksevoke.net",
+        portfolioImg: "./pages/home/portfolio/booksevoke-institute.png"
     },
     {
-        portfolioName: "Veronisa Tour (Pvt)Ltd",
-        portfolioUrl: "Veronisatours.lk",
-        portfolioImg: "./pages/home/portfolio/site-4.png"
+        portfolioName: "Tourlions (Pvt)Ltd",
+        portfolioUrl: "tourlions.com",
+        portfolioImg: "./pages/home/portfolio/tourlions.png"
     },
     {
-        portfolioName: "Veronisa Tour (Pvt)Ltd",
-        portfolioUrl: "Veronisatours.lk",
-        portfolioImg: "./pages/home/portfolio/site-5.png"
+        portfolioName: "Dels super (Pvt) ltd",
+        portfolioUrl: "delsupers.com",
+        portfolioImg: "./pages/home/portfolio/dels-super.png"
+    },
+    {
+        portfolioName: "Globaltrans Logistic (Pvt)Ltd",
+        portfolioUrl: "gtl.com",
+        portfolioImg: "./pages/home/portfolio/globaltrans-logistic.png"
     },
 ];
 

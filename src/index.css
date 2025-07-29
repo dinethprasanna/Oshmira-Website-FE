@@ -418,7 +418,6 @@ h3 {
 @media (min-width:990px) {
   .singleCard:hover {
     transform: scale(1.02);
-    transform: scale(1.05);
     box-shadow: 0px 0px 4px 2px #fe3615;
   }
 
@@ -453,3 +452,15 @@ h3 {
 }
 
 /*============ Home Styles - End  =================*/
+
+
+
+/*=========== Our Services Styles - Start ==========*/
+.our-services-full-width-card {
+  background-image: url('/public/pages/our-services/our-services-full-width-card-bg.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+
+/*=========== Our Services Styles - End   ==========*/
