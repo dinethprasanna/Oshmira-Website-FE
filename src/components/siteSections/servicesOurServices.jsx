@@ -44,7 +44,7 @@ const cardData = [
 ];
 
 function ServicesOurServices() {
-  Aos.init({ duration: 2000 });
+  Aos.init({ duration: 1000 });
   return (
     <section className="services-our-services relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
       <div
@@ -119,7 +119,7 @@ function ServicesOurServices() {
                     <li className="mb-0">System Monitoring & Alerts</li>
                   </ul>
                 </div>
-                <Link to={"/"} className="block w-fit mt-6 md:mt-8">
+                <Link to={"/contact-us"} className="block w-fit mt-6 md:mt-8">
                   <Button>Get Started</Button>
                 </Link>
               </div>

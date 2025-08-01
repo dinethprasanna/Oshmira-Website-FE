@@ -4,7 +4,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 function AboutUsCompanyOverview() {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
     return (
         <section className="about-us-company-overview-section relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 ">
             <div className="abt-company-info grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-x-[42px] lg:gap-x-[58px] text-white py-8 md:py-16 lg:py-24">

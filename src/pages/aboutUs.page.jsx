@@ -2,6 +2,7 @@ import BreadcrumbHeroSection from "@/components/siteSections/breadcrumbHeroSecti
 import AboutUsCompanyOverview from "@/components/siteSections/aboutUsCompanyOverview";
 import AboutUsWorkingProcess from "@/components/siteSections/aboutUsWorkingProcess";
 import AboutUsThinkMakeSolveSection from "@/components/siteSections/aboutUsThinkMakeSolve";
+import FAQ from "@/components/siteSections/faq";
 
 function AboutUsPage() {
     return (
@@ -11,6 +12,7 @@ function AboutUsPage() {
                 <AboutUsCompanyOverview />
                 <AboutUsWorkingProcess />
                 <AboutUsThinkMakeSolveSection />
+                <FAQ />
             </main>
         </>
     )

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import { useState, useRef, useEffect } from 'react';
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -79,27 +79,48 @@ function Header() {
                         </Link>
                     </div>
                     <div className="desk-nav-links flex justify-center gap-6">
-                        <Link to={'/'}>
-                            <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Home</p>
-                        </Link>
-                        <Link to={'/about-us'}>
-                            <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">About us</p>
-                        </Link>
-                        <Link to={'/solutions'}>
-                            <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Solutions</p>
-                        </Link>
-                        <Link to={'/services'}>
-                            <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Services</p>
-                        </Link>
-                        <Link to={'/portfolio'}>
-                            <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Portfolio</p>
-                        </Link>
-                        <Link to={'/packages'}>
-                            <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Packages</p>
-                        </Link>
-                        <Link to={'/contact-us'}>
-                            <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Contact us</p>
-                        </Link>
+                        <NavLink to={'/'} className={({ isActive }) =>
+                            `m-0 p-0 font-inter-semibold text-sm transition-colors hover:text-orange-500 ${isActive ? "text-orange-500" : "text-white"
+                            }`
+                        }>
+                            Home
+                        </NavLink>
+                        <NavLink to={'/about-us'} className={({ isActive }) =>
+                            `m-0 p-0 font-inter-semibold text-sm transition-colors hover:text-orange-500 ${isActive ? "text-orange-500" : "text-white"
+                            }`
+                        } >
+                            About us
+                        </NavLink>
+                        <NavLink to={'/solutions'} className={({ isActive }) =>
+                            `m-0 p-0 font-inter-semibold text-sm transition-colors hover:text-orange-500 ${isActive ? "text-orange-500" : "text-white"
+                            }`
+                        } >
+                            Solutions
+                        </NavLink>
+                        <NavLink to={'/services'} className={({ isActive }) =>
+                            `m-0 p-0 font-inter-semibold text-sm transition-colors hover:text-orange-500 ${isActive ? "text-orange-500" : "text-white"
+                            }`
+                        } >
+                            Services
+                        </NavLink>
+                        <NavLink to={'/portfolio'} className={({ isActive }) =>
+                            `m-0 p-0 font-inter-semibold text-sm transition-colors hover:text-orange-500 ${isActive ? "text-orange-500" : "text-white"
+                            }`
+                        } >
+                            Portfolio
+                        </NavLink>
+                        <NavLink to={'/packages'} className={({ isActive }) =>
+                            `m-0 p-0 font-inter-semibold text-sm transition-colors hover:text-orange-500 ${isActive ? "text-orange-500" : "text-white"
+                            }`
+                        } >
+                            Packages
+                        </NavLink>
+                        <NavLink to={'/contact-us'} className={({ isActive }) =>
+                            `m-0 p-0 font-inter-semibold text-sm transition-colors hover:text-orange-500 ${isActive ? "text-orange-500" : "text-white"
+                            }`
+                        } >
+                            Contact us
+                        </NavLink>
                     </div>
                     <div className="nav-btn1">
                         <Link to={'/contact-us'}>
@@ -151,6 +172,12 @@ function Header() {
                 }}
             >
                 <div className="p-6 border-b-2 border-white flex flex-col gap-4">
+                    <NavLink to={'/'} className={({ isActive }) =>
+                        `block text-sm font-semibold text-white hover:text-orange-500 ${isActive ? "text-orange-500" : "text-white"
+                        }`
+                    } >
+                        Contact us
+                    </NavLink>
                     <Link to="/" className="block text-sm font-semibold text-white hover:text-orange-500">Home</Link>
                     <Link to="/about-us" className="block text-sm font-semibold text-white hover:text-orange-500">About us</Link>
                     <Link to="/solutions" className="block text-sm font-semibold text-white hover:text-orange-500">Solutions</Link>

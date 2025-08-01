@@ -457,7 +457,7 @@ h3 {
 
 /*=========== Our Services Styles - Start ==========*/
 .our-services-full-width-card {
-  background-image: url('/public/pages/our-services/our-services-full-width-card-bg.png');
+  background-image: url('/pages/our-services/our-services-full-width-card-bg.png');
   background-position: right bottom;
   background-repeat: no-repeat;
 }

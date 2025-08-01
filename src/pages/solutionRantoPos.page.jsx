@@ -597,7 +597,7 @@ function SolutionRantoPosPage() {
             </div>
           </div>
 
-          <Link to={"/"} className="mt-12 ml-auto flex flex-row justify-center">
+          <Link to={"/contact-us"} className="mt-12 ml-auto flex flex-row justify-center">
             <Button className="min-w-[200px] min-h-[52px]">Buy Plan</Button>
           </Link>
         </section>

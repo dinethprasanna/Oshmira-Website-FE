@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 
 
 function ContactCnthtmlForm() {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -46,32 +46,32 @@ function ContactCnthtmlForm() {
                     <div className="flex items-stretch justify-center">
                         <div className="grid lg:grid-cols-3">
                             <div className="h-full pr-6 col-span-1 lg:col-span-1">
-                                <h2 className="text-white text-left font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-6 aos-init aos-animate">Ready to Get Started?</h2>
+                                <h2 className="text-white text-left font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-6 aos-init aos-animate">Let’s Build Something Exceptional Together</h2>
                                 <p className="mt-3 mb-12 text-lg text-white ">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut commodi optio sunt, aspernatur eius neque ipsum dolore sequi perferendis, eos minus eum quod laboriosam nisi minima quisquam odit impedit esse.
+                                    Whether you're ready to start a project or just exploring ideas, we’re here to help. At Oshmira Solution, we turn vision into reality with smart, scalable, and user-focused digital solutions. Reach out today let’s talk about how we can create meaningful impact through technology.
                                 </p>
                                 <div className="our-contact-details">
                                     <div className="phone mt-3 mb-6 text-lg text-white ">
                                         <p>Phone:</p>
                                         <p><a
-                                            href="tel:850-123-5021"
+                                            href="tel:+94 772203840"
                                             aria-label="Our phone"
                                             title="Our phone"
                                             className="duration-300 text-white font-inter-medium transition-colors hover:text-orange-500"
                                         >
-                                            850-123-5021
+                                            +94 772203840
                                         </a></p>
                                     </div>
                                     <div className="email mt-3 mb-6 text-lg text-white ">
                                         <p>E-mail:</p>
                                         <p>
                                             <a
-                                                href="mailto:info@lorem.mail"
+                                                href="mailto:info@oshmira.com"
                                                 aria-label="Our email"
                                                 title="Our email"
                                                 className="duration-300 text-white font-inter-medium transition-colors hover:text-orange-500"
                                             >
-                                                info@lorem.mail
+                                                info@oshmira.com
                                             </a>
                                         </p>
                                     </div>
@@ -149,7 +149,7 @@ function ContactCnthtmlForm() {
                                     <div className="text-center">
                                         <button
                                             type="submit"
-                                            className="w-full bg-red-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0"
+                                            className="w-full bg-orange-600 hover:bg-orange-700 cursor-pointer text-white px-6 py-3 font-xl rounded-md sm:mb-0"
                                         >
                                             Send Message
                                         </button>

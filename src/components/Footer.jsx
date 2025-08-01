@@ -49,17 +49,16 @@ function Footer() {
                                 info@oshmira.com
                             </a>
                         </div>
-                        <div className="flex2 hidden">
-                            <p className="mr-1 text-white font-inter-light">Address:</p>
+                        <div className="flex">                            
                             <a
-                                href="https://www.google.com/maps"
+                                href="https://www.trustpilot.com/review/oshmira.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="Our address"
                                 title="Our address"
-                                className="duration-300 text-white font-inter-light transition-colors hover:text-orange-500"
+                                className="duration-300 text-white font-inter-light transition-all hover:scale-105"
                             >
-                                312 Lovely Street, NY
+                                <img src="/footer/trustpilot-logo.png" alt="Trustpilot" className="w-auto h-[54px]" />
                             </a>
                         </div>
                     </div>
