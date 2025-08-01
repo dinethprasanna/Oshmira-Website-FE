@@ -60,7 +60,7 @@ function HomeTestimonial() {
                 </p>
             </div>
             <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3" data-aos="fade-up">What Our <span className='gradient-text-anime'>Client</span> Say</h2>
-            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[760px] mx-auto mb-6' data-aos="fade-up">Our clients are the heartbeat of everything we do. Their stories inspire us, their trust drives us, and their feedback fuels our growth. Here’s what they have to say about working with us.</p>
+            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[760px] mx-auto mb-6' data-aos="fade-up">Their stories inspire us, their trust drives us, and their feedback fuels our growth. Here’s what they have to say about working with us.</p>
 
             <div className="testimonial-slider flex flex-wrap justify-center mt-6 md:mt-8 lg:mt-10" data-aos="fade-up">
                 {/* Swiper Slider */}

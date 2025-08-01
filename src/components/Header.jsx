@@ -94,7 +94,7 @@ function Header() {
                         <Link to={'/portfolio'}>
                             <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Portfolio</p>
                         </Link>
-                        <Link to={'/products'}>
+                        <Link to={'/packages'}>
                             <p className="m-0 p-0 font-inter-semibold text-white text-sm transition-colors hover:text-orange-500">Packages</p>
                         </Link>
                         <Link to={'/contact-us'}>
@@ -102,7 +102,7 @@ function Header() {
                         </Link>
                     </div>
                     <div className="nav-btn1">
-                        <Link to={'/'}>
+                        <Link to={'/contact-us'}>
                             <Button >Get started</Button>
                         </Link>
                     </div>
@@ -156,9 +156,9 @@ function Header() {
                     <Link to="/solutions" className="block text-sm font-semibold text-white hover:text-orange-500">Solutions</Link>
                     <Link to="/services" className="block text-sm font-semibold text-white hover:text-orange-500">Services</Link>
                     <Link to="/portfolio" className="block text-sm font-semibold text-white hover:text-orange-500">Portfolio</Link>
-                    <Link to="/products" className="block text-sm font-semibold text-white hover:text-orange-500">Packages</Link>
+                    <Link to="/packages" className="block text-sm font-semibold text-white hover:text-orange-500">Packages</Link>
                     <Link to="/contact-us" className="block text-sm font-semibold text-white hover:text-orange-500">Contact us</Link>
-                    <Link to="/">
+                    <Link to="/contact-us">
                         <Button className="mt-2">Get started</Button>
                     </Link>
                 </div>

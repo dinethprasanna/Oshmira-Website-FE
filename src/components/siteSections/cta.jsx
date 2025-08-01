@@ -13,7 +13,7 @@ function CTA() {
                         Start Now!</h2>
                     <p className="font-inter-light text-white text-center md:text-left text-base md:text-lg max-w-[520px] mb-6 mx-auto md:mx-0">Take your brand to the next level with our expert web solutions Let's get started today!</p>
                     <div className="bottom-link flex justify-center md:justify-start ">
-                        <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors text-black hover:text-orange-500 bg-white">Get Started</Button></Link>
+                        <Link to={'/contact-us'}><Button variant="link" className="font-inter-semibold transition-colors text-black hover:text-orange-500 bg-white">Get Started</Button></Link>
                     </div>
                 </div>
                 <div className="cta-img col-span-1 absolute md:relative left-0 right-0 top-0 bottom-0 z-2">

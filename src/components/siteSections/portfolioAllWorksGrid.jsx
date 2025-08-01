@@ -1,14 +1,5 @@
 import PortfolioCard from './portfolioCard';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-
-import { Autoplay, Navigation } from 'swiper/modules';
-import { Link } from 'react-router';
-import { Button } from '../ui/button';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 

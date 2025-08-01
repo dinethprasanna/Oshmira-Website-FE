@@ -9,7 +9,7 @@ const cardData = [
     {
         image: '/icons/WebDevelopment.png',
         title: 'Web Development',
-        description: 'Custom-built web solutions that streamline your operations, solve unique challenges, and fuel your growth.',
+        description: 'Custom web solutions that make your work easier, solve your business problems, and help you grow.',
     },
     {
         image: '/icons/AppDevelopemnt.png',
@@ -24,17 +24,17 @@ const cardData = [
     {
         image: '/icons/UIUXDesign.png',
         title: 'UI/UX Design',
-        description: 'SWe create digital experiences that users love. Intuitive, engaging designs that turn first-time visitors into loyal customers.',
+        description: 'Craft user-friendly UX and engaging UI designs that make every interaction simple and enjoyable - turning visitors into loyal customers.',
     },
     {
         image: '/icons/GraphicDesign.png',
         title: 'Graphic Design',
-        description: 'From sleek vector designs to captivating 2D and 3D creations, we turn your vision into reality.',
+        description: 'Eye-catching graphic designs that strengthen your brand identity and communicate your message clearly across all platforms.',
     },
     {
         image: '/icons/WebsiteSEO.png',
         title: 'Website SEO',
-        description: 'Enhancing website rankings and visibility through keyword strategies, content optimization, and technical SEO to drive organic traffic.',
+        description: 'Optimize your website to improve search engine rankings, increase visibility, and attract more visitors organically.',
     },
 ];
 
@@ -48,8 +48,7 @@ function HomeOurServices() {
                 </p>
             </div>
             <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3" data-aos="fade-up">Our Services</h2>
-            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[480px] mx-auto mb-6' data-aos="fade-up">Empowering Innovation with Expert Talent <br className="hidden lg:block" />
-                Precision Annotations, and Custom Web Solutions</p>
+            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[480px] mx-auto mb-6' data-aos="fade-up">Transforming Ideas into Scalable Digital Solutions</p>
 
             <div className="our-services-cards flex flex-wrap justify-center gap-4 lg:gap-y-[48px] lg:gap-x-[64px] mt-6 md:mt-12 lg:mt-16" data-aos="fade-up">
                 {cardData.map((card, index) => (
@@ -66,7 +65,7 @@ function HomeOurServices() {
                 ))}
             </div>
             <div className="bottom-link mt-8 md:mt-12 lg:mt-16 flex justify-center" data-aos="fade-up">
-                <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
+                <Link to={'/services'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
             </div>
         </section>
     );

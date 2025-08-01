@@ -16,10 +16,10 @@ function HomeWhyChooseUs() {
                     </div>
                     <h2 className="text-white text-center md:text-left font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3">Choose <span className='gradient-text-anime'>Oshmira <br className="hidden lg:block" />
                         Solutions</span></h2>
-                    <p className='text-base md:text-lg font-inter-light text-white text-center md:text-left mb-6'>Our portfolio reflects our dedication to excellence and innovation, demonstrating the breadth and impact of our customized IT solutions.</p>
+                    <p className='text-base md:text-lg font-inter-light text-white text-center md:text-left mb-6'>At Oshmira Solutions, we don’t just build software we craft future-ready solutions. Backed by strategy, design, and technology, we empower businesses to grow, innovate, and lead in the digital era. With our Think. Make. Solve. philosophy, every project becomes a success story.</p>
 
                     <div className="btn-grp flex flex-col md:flex-row gap text-sm">
-                        <Link to={'/'}><Button>Book a Call</Button></Link>
+                        <Link to={'/contact-us'}><Button>Book a Call</Button></Link>
                     </div>
                 </div>
                 <div className="right-col col-span-1 md:col-span-3 grid grid-cols-1 gap-4 md:gap-6 h-fit" data-aos="fade-left">

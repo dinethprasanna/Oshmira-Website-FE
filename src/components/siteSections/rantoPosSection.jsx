@@ -21,7 +21,7 @@ function RantoPosSection() {
                         <li>100% customizable to suit your needs</li>
                     </ul>
                     <div className="btn-grp flex flex-col items-center md:items-start md:flex-row gap text-sm mt-6 lg:mt-8">
-                        <Link to={'/'}><Button>Get Started</Button></Link>
+                        <Link to={'/contact-us'}><Button>Get Started</Button></Link>
                     </div>
                 </div>
                 <div className="ranto-pos-banner col-span-1 md:col-span-2 lg:col-span-3 md:flex flex-col justify-center hidden" data-aos="fade-left">

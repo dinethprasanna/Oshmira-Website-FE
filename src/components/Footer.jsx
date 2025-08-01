@@ -19,12 +19,7 @@ function Footer() {
                         </Link>
                         <div className="mt-6 lg:max-w-sm">
                             <p className="text-sm text-white font-inter-light">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <p className="mt-4 text-sm text-white font-inter-light">
-                                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo.
+                                Oshmira Solutions (Pvt) Ltd. is a trusted provider of innovative IT services, focused on helping businesses thrive in the digital landscape.
                             </p>
                         </div>
                     </div>
@@ -35,26 +30,26 @@ function Footer() {
                         <div className="flex">
                             <p className="mr-1 text-white font-inter-light">Phone:</p>
                             <a
-                                href="tel:850-123-5021"
+                                href="tel:+94 772203840"
                                 aria-label="Our phone"
                                 title="Our phone"
                                 className="duration-300 text-white font-inter-light transition-colors hover:text-orange-500"
                             >
-                                850-123-5021
+                                +94 77 22 03 840
                             </a>
                         </div>
                         <div className="flex">
                             <p className="mr-1 text-white">Email:</p>
                             <a
-                                href="mailto:info@lorem.mail"
+                                href="mailto:info@oshmira.com"
                                 aria-label="Our email"
                                 title="Our email"
                                 className="duration-300 text-white font-inter-light transition-colors hover:text-orange-500"
                             >
-                                info@lorem.mail
+                                info@oshmira.com
                             </a>
                         </div>
-                        <div className="flex">
+                        <div className="flex2 hidden">
                             <p className="mr-1 text-white font-inter-light">Address:</p>
                             <a
                                 href="https://www.google.com/maps"
@@ -85,7 +80,7 @@ function Footer() {
                                 >
                                     <path
                                         d="M14,2 C15.1046,2 16,2.89543 16,4 C16,5.44733 17.03,6.6618 18.3984,6.93991 C19.4808,7.15992 20.1799,8.21575 19.9599,9.29819 C19.7399,10.3806 18.6841,11.0798 17.6016,10.8598 C17.0406,10.7457 16.5037,10.5646 16,10.3252 L16,16 C16,19.3137 13.3137,22 10,22 C6.68629,22 4,19.3137 4,16 C4,13.2015 5.91407,10.8551 8.50148,10.1891 C9.57119,9.91382 10.6616,10.5578 10.9369,11.6275 C11.2122,12.6972 10.5682,13.7876 9.49852,14.0629 C8.63547,14.285 8,15.0708 8,16 C8,17.1046 8.89543,18 10,18 C11.1046,18 12,17.1046 12,16 L12,4 C12,2.89543 12.8954,2 14,2 Z"
-                                        
+
                                     />
                                 </svg>
                             </a>
@@ -107,26 +102,27 @@ function Footer() {
                                     <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
                                 </svg>
                             </a>
+                            <a
+                                href="/"
+                                className="text-white font-inter-light transition-colors hover:text-orange-500"
+                            >
+                                <svg viewBox="0 0 256 256" fill="currentColor" className="h-6 w-6">
+                                    <g transform="scale(10.66667)">
+                                        <path d="M21,5c0,0 -3,-1 -9,-1c-6,0 -9,1 -9,1c0,0 -1,3 -1,7c0,4 1,7 1,7c0,0 3,1 9,1c6,0 9,-1 9,-1c0,0 1,-3 1,-7c0,-4 -1,-7 -1,-7zM10,15.464v-6.928l6,3.464z" />
+                                    </g>
+                                </svg>
+                            </a>
                         </div>
                         <p className="mt-4 text-sm text-white font-inter-light">
-                            Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-                            spare ribs salami.
+                            Join our digital community. Discover trends, tips, and technology that move businesses forward.
                         </p>
                     </div>
                 </div>
                 <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
                     <p className="text-sm text-white font-inter-light">
-                        &copy; Copyright 2025 Lorem Inc. All rights reserved.
+                        &copy; 2025 Oshmira Solutions (Pvt) Ltd. All Rights Reserved.
                     </p>
                     <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-                        <li>
-                            <Link
-                                to={'/faq'}
-                                className="text-sm text-white font-inter-light transition-colors hover:text-orange-500"
-                            >
-                                F.A.Q
-                            </Link>
-                        </li>
                         <li>
                             <Link
                                 to={'/privacy-and-policy'}

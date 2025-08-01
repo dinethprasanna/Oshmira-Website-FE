@@ -82,8 +82,8 @@ function HomeHero() {
                         For a Smarter workforce and Better Data</p>
 
                     <div className="btn-grp flex flex-col md:flex-row gap-4 text-sm mb-12 md:mb-16 lg:mb-20">
-                        <Link to={'/'}><Button>Get Started</Button></Link>
-                        <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
+                        <Link to={'/contact-us'}><Button>Get Started</Button></Link>
+                        <Link to={'/services'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
                     </div>
 
                     <div className="tech-logos-slider">

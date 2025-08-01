@@ -14,7 +14,7 @@ const cardData = [
     {
         image: '/icons/social-media-marketing.png',
         title: 'Social Media Marketing',
-        description: 'We create eye-catching content and targeted campaigns to grow your online presence and boost engagement.',
+        description: 'We create engaging content and targeted campaigns to grow your brand and boost online visibility.',
     },
     {
         image: '/icons/tv-commercials.png',

@@ -9,7 +9,7 @@ const cardData = [
     image: "/icons/WebDevelopment.png",
     title: "Web Development",
     description:
-      "Custom-built web solutions that streamline your operations, solve unique challenges, and fuel your growth.",
+      "Custom web solutions that make your work easier, solve your business problems, and help you grow.",
   },
   {
     image: "/icons/AppDevelopemnt.png",
@@ -27,19 +27,19 @@ const cardData = [
     image: "/icons/UIUXDesign.png",
     title: "UI/UX Design",
     description:
-      "SWe create digital experiences that users love. Intuitive, engaging designs that turn first-time visitors into loyal customers.",
+      "Craft user-friendly UX and engaging UI designs that make every interaction simple and enjoyable - turning visitors into loyal customers.",
   },
   {
     image: "/icons/GraphicDesign.png",
     title: "Graphic Design",
     description:
-      "From sleek vector designs to captivating 2D and 3D creations, we turn your vision into reality.",
+      "Eye-catching graphic designs that strengthen your brand identity and communicate your message clearly across all platforms.",
   },
   {
     image: "/icons/WebsiteSEO.png",
     title: "Website SEO",
     description:
-      "Enhancing website rankings and visibility through keyword strategies, content optimization, and technical SEO to drive organic traffic.",
+      "Optimize your website to improve search engine rankings, increase visibility, and attract more visitors organically.",
   },
 ];
 

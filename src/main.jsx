@@ -19,6 +19,9 @@ import ContactUsPage from './pages/contactUs.page';
 import SolutionsPage from './pages/solutions.page';
 import SolutionRantoPosPage from './pages/solutionRantoPos.page';
 import PortfolioPage from './pages/portfolio.page';
+import PackagesPage from './pages/packages.page';
+import PrivacyPolicyPage from './pages/privacyPolicy.page';
+import TermsConditionsPage from './pages/termsCondition.page';
 
 
 createRoot(document.getElementById('root')).render(
@@ -33,9 +36,12 @@ createRoot(document.getElementById('root')).render(
             <Route path='/about-us' element={<AboutUsPage />} />
             <Route path='/services' element={<ServicesPage />} />
             <Route path='/portfolio' element={<PortfolioPage />} />
+            <Route path='/packages' element={<PackagesPage />} />
             <Route path='/contact-us' element={<ContactUsPage />} />
             <Route path='/solutions' element={<SolutionsPage />} />
             <Route path='/solutions/pos-product' element={<SolutionRantoPosPage />} />
+            <Route path='/privacy-and-policy' element={<PrivacyPolicyPage />} />
+            <Route path='/terms-and-conditions' element={<TermsConditionsPage />} />
           </Route>
 
           {/* Site Logged User/Client Layout */}

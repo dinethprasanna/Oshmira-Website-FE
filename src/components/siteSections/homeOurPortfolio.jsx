@@ -56,7 +56,7 @@ function HomeOurPortfolio() {
                 </p>
             </div>
             <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3" data-aos="fade-up">Our <span className='gradient-text-anime'>Portfolio</span></h2>
-            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[820px] mx-auto mb-6' data-aos="fade-up">Every pixel tells a story. Our work showcases a blend of strategy, creativity, and craft built not just to look good, but to deliver real results. Explore how we turn ideas into stunning digital experiences.</p>
+            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[820px] mx-auto mb-6' data-aos="fade-up">At Oshmira Solutions, we Think. Make. Solve. Transforming ideas into innovative software that drives real business success. Explore our latest projects built with purpose and precision.</p>
 
             <div className="portfolio-slider flex flex-wrap justify-center mt-4 md:mt-5 lg:mt-6" data-aos="fade-up">
                 {/* Swiper Slider */}
@@ -112,7 +112,7 @@ function HomeOurPortfolio() {
                     </button>
                 </div>
                 <div className="see-more bottom-link flex justify-center">
-                    <Link to={'/'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View More <img src="./icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
+                    <Link to={'/portfolio'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View More <img src="./icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
                 </div>
             </div>
         </section>
