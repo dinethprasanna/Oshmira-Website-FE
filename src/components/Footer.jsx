@@ -69,7 +69,8 @@ function Footer() {
                         </span>
                         <div className="flex items-center mt-1 space-x-3">
                             <a
-                                href="/"
+                                href="https://www.tiktok.com/@oshmirasolutions?_t=ZS-8yVUt7M2HZa&_r=1"
+                                target="_blank"
                                 className="text-white font-inter-light transition-colors hover:text-orange-500"
                             >
                                 <svg
@@ -86,7 +87,8 @@ function Footer() {
                             </a>
 
                             <a
-                                href="/"
+                                href="https://www.instagram.com/oshmira_solutions/"
+                                target="_blank"
                                 className="text-white font-inter-light transition-colors hover:text-orange-500"
                             >
                                 <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -95,7 +97,8 @@ function Footer() {
                                 </svg>
                             </a>
                             <a
-                                href="/"
+                                href="https://web.facebook.com/oshmirasolutions"
+                                target="_blank"
                                 className="text-white font-inter-light transition-colors hover:text-orange-500"
                             >
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -103,7 +106,8 @@ function Footer() {
                                 </svg>
                             </a>
                             <a
-                                href="/"
+                                href="https://www.youtube.com/@oshmirasolutions"
+                                target="_blank"
                                 className="text-white font-inter-light transition-colors hover:text-orange-500"
                             >
                                 <svg viewBox="0 0 256 256" fill="currentColor" className="h-6 w-6">
