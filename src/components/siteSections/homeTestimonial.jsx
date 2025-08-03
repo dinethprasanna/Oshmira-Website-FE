@@ -6,52 +6,52 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const testimonials = [
     {
-        clientName: "Sarah Thompson",
-        designation: "Marketing Lead",
-        clientReview: "Working with this team has been a game-changer. Their attention to detail and passion truly show.",
+        clientName: "Mr.Suahn",
+        designation: "Owner",
+        clientReview: "I explained the design and flow I wanted for my Toursim website, and Oshmira Solutions brought it to life perfectly. They also created a unique business logo that truly reflects my brand. I’m extremely happy with their creativity, professionalism, and attention to detail. I highly recommend them to anyone looking for quality web design and branding services",
         clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
-        clientName: "James Warner",
-        designation: "Product Manager",
-        clientReview: "Top-notch service and constant support. I’m genuinely impressed!",
+        clientName: "Renee Carter",
+        designation: "Owner",
+        clientReview: "I am very happy with how quickly i got my post and how good it is. I am sure i will now get more clients from this post. Thank you so much for taking time out and doing this for me",
         clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
-        clientName: "Emily Tran",
-        designation: "UX Designer",
-        clientReview: "Their creative approach and quick turnarounds exceeded my expectations.",
+        clientName: "Chamil Wijewardhana",
+        designation: "Manager",
+        clientReview: "ZKME Tool has truly transformed some of our company’s processes by automating tasks that used to be manual. We now spend significantly less time on these tasks, which has greatly increased our efficiency. It has also made managing paper costs much easier for us.",
         clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
-        clientName: "David Kim",
-        designation: "CTO",
-        clientReview: "We’ve collaborated on multiple projects and they always deliver beyond expectations.",
+        clientName: "Mr.Sajith bandara",
+        designation: "Director",
+        clientReview: "Oshmira did an excellent job developing our official website for GLOBALTRANS LOGISTICS (PVT) LTD. Everything was completed exactly as discussed, with great attention to detail. Their service was professional, and communication was smooth throughout the process. Highly recommended",
         clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
-        clientName: "Priya Desai",
-        designation: "Business Analyst",
-        clientReview: "Excellent communication and dedication throughout. Truly recommended!",
+        clientName: "Mr.Prageeth fernando",
+        designation: "Owner",
+        clientReview: "Ranto POS from Oshmira Solutions streamlined our store.easy inventory control, clear profit tracking, and no paper waste. Best software for our business!",
         clientImg: "/pages/home/testimonial/sample-client-profile.png"
     },
     {
-        clientName: "Liam Gallagher",
-        designation: "Founder, TechNova",
-        clientReview: "Their team feels like an extension of ours. Great chemistry and output.",
+        clientName: "Mrs.Shaveena De Silva",
+        designation: "Owner",
+        clientReview: "they created a modern, SEO-optimized website for our coffee business. We’ve seen more online inquiries and better customer engagement than ever before.",
         clientImg: "/pages/home/testimonial/sample-client-profile.png"
     }
 ];
 
 
 function HomeTestimonial() {
-    Aos.init({duration:2000});
+    Aos.init({ duration: 2000 });
     return (
         <section className="home-testimonial-section relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
             <div className="testimonial-label label-border-animation py-2 px-2 rounded-md bg-(--bg-second-col) block mb-6 max-w-fit min-w-[120px] md:min-w-[186px] mx-auto" data-aos="zoom-in">
@@ -65,11 +65,15 @@ function HomeTestimonial() {
             <div className="testimonial-slider flex flex-wrap justify-center mt-6 md:mt-8 lg:mt-10" data-aos="fade-up">
                 {/* Swiper Slider */}
                 <Swiper
-                    modules={[Navigation]}
+                    modules={[Autoplay, Navigation]}
                     spaceBetween={16}
                     freeMode={true}
                     loop={true}
                     slidesPerView={'auto'}
+                    autoplay={{
+                        delay: 2500,
+                        pauseOnMouseEnter: true,
+                    }}
                     grabCursor={true}
                     breakpoints={{
                         541: {

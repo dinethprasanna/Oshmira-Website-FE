@@ -6,35 +6,35 @@ import { Button } from "../ui/button";
 
 const cardData = [
     {
-        image: '/icons/branding.png',
+        image: '/icons/ranto-pos.png',
         title: 'RANTO POS',
         description: 'RANTO POS by Oshmira Solutions is a smart, all-in-one retail management system built to simplify billing, inventory, and customer operations.',
         link: '/solutions/pos-product'
     },
     {
-        image: '/icons/social-media-marketing.png',
+        image: '/icons/hrm-system.png',
         title: 'HRM System',
-        description: 'We create eye-catching content and targeted campaigns to grow your online presence and boost engagement.',
+        description: 'Streamline employee management, payroll, and performance tracking.',
     },
     {
-        image: '/icons/tv-commercials.png',
+        image: '/icons/lms.png',
         title: 'LMS',
-        description: 'We produce creative, high-quality ads that captivate audiences and strengthen brand recall on mainstream media.',
+        description: 'Simplify learning and training with a smart Learning Management System.',
     },
     {
-        image: '/icons/videography.png',
+        image: '/icons/e-commerce.png',
         title: 'E-Commerce Systems',
-        description: 'We craft compelling visuals - from corporate videos to promos- bringing your brand’s story to life with precision.',
+        description: 'Build and manage online stores for seamless digital sales.',
     },
     {
-        image: '/icons/audiography.png',
+        image: '/icons/sfa-system.png',
         title: 'SFA System',
-        description: 'We craft immersive audio experiences - perfect for advertisements, podcasts, jingles, and voiceovers that leave a lasting impact.',
+        description: 'Streamline sales and inventory with transfer management, product labeling, and real-time stock control.',
     },
     {
-        image: '/icons/audiography.png',
+        image: '/icons/hotel-management.png',
         title: 'Hotel Management system',
-        description: 'We craft immersive audio experiences - perfect for advertisements, podcasts, jingles, and voiceovers that leave a lasting impact.',
+        description: 'Manage reservations,room booking, operations, and guests effortlessly.',
     },
 ];
 
