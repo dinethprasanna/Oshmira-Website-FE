@@ -16,7 +16,7 @@ function PackagesBottomCont() {
                     Have a unique project or custom requirement? We're here to help you bring your vision to life. Reach out today and let’s create something exceptional together!
                 </p>
 
-                <div className="btn-grp flex flex-col md:flex-row justify-center gap-4 text-sm ">
+                <div className="btn-grp flex flex-col items-center md:flex-row justify-center gap-4 text-sm ">
                     <Link to={'/contact-us'}><Button>Contact Us</Button></Link>
                     <Link to={'/services'}><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500">View Our Services <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
                 </div>
