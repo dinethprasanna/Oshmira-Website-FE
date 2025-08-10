@@ -12,40 +12,40 @@ import 'aos/dist/aos.css';
 
 const testimonials = [
     {
-        clientName: "Mr.Suhan Fernando",
-        designation: "Owner - Carters Cleaning Company",
-        clientReview: "I explained the design and flow I wanted for my Toursim website, and Oshmira Solutions brought it to life perfectly. They also created a unique business logo that truly reflects my brand. I’m extremely happy with their creativity, professionalism, and attention to detail. I highly recommend them to anyone looking for quality web design and branding services",
-        clientImg: "/pages/home/testimonial/suhan-fernando.png"
+        clientName: "Mr.Sajith Bandara",
+        designation: "Founder - GlobalTrans Logistics (Pvt) Ltd",
+        clientReview: "We are extremely happy with the outstanding service provided by Oshmira Solutions (Pvt) Ltd. They developed our website with great attention to detail, creativity, and professionalism. The team was very responsive, easy to work with, and delivered everything on time.",
+        clientImg: "/pages/home/testimonial/sajith-bandara.png"
     },
     {
         clientName: "Renee Carter",
-        designation: "Owner",
-        clientReview: "I am very happy with how quickly i got my post and how good it is. I am sure i will now get more clients from this post. Thank you so much for taking time out and doing this for me",
+        designation: "Owner - Carters Cleaning Company",
+        clientReview: "I am very happy with how quickly i got my post and how good it is. I am sure i will now get more clients from this post. Thank you so much for taking time out and doing this for me.",
         clientImg: "/pages/home/testimonial/renee-carter.png"
     },
     {
-        clientName: "Chamil Wijewardhana",
-        designation: "Manager",
+        clientName: "Mr.Suhan Fernando",
+        designation: "Owner - TourLions (Pvt) ltd",
+        clientReview: "I explained the design and flow I wanted for my Toursim website, and Oshmira Solutions brought it to life perfectly. They also created a unique business logo that truly reflects my brand. I’m extremely happy with their creativity, professionalism, and attention to detail.",
+        clientImg: "/pages/home/testimonial/suhan-fernando.png"
+    },
+    {
+        clientName: "Mr.Prageeth Patabadige",
+        designation: "Business Development Executive - CTK Cricketshop(Pvt)ltd",
+        clientReview: "Ranto POS from Oshmira Solutions streamlined our store.easy inventory control, clear profit tracking, and no paper waste. Best software for our business!",
+        clientImg: "/pages/home/testimonial/prageeth-patabadige.png"
+    },
+    {
+        clientName: "Mr.Chamil Wijewardhana",
+        designation: "Accountant - Mansalawa (Pvt)ltd",
         clientReview: "ZKME Tool has truly transformed some of our company’s processes by automating tasks that used to be manual. We now spend significantly less time on these tasks, which has greatly increased our efficiency. It has also made managing paper costs much easier for us.",
         clientImg: "/pages/home/testimonial/chamil-wijewardhana.png"
     },
     {
-        clientName: "Mr.Sajith bandara",
-        designation: "Director",
-        clientReview: "Oshmira did an excellent job developing our official website for GLOBALTRANS LOGISTICS (PVT) LTD. Everything was completed exactly as discussed, with great attention to detail. Their service was professional, and communication was smooth throughout the process. Highly recommended",
-        clientImg: "/pages/home/testimonial/sample-client-profile.png"
-    },
-    {
-        clientName: "Mr.Prageeth fernando",
-        designation: "Owner",
-        clientReview: "Ranto POS from Oshmira Solutions streamlined our store.easy inventory control, clear profit tracking, and no paper waste. Best software for our business!",
-        clientImg: "/pages/home/testimonial/sample-client-profile.png"
-    },
-    {
-        clientName: "Mrs.Shaveena De Silva",
-        designation: "Owner",
-        clientReview: "they created a modern, SEO-optimized website for our coffee business. We’ve seen more online inquiries and better customer engagement than ever before.",
-        clientImg: "/pages/home/testimonial/sample-client-profile.png"
+        clientName: "Mr.Madhawa",
+        designation: "Owner - Delssuper (Pvt) ltd",
+        clientReview: "Oshmira developed our Del\'Super e-commerce website - clean, fully functional, and delivered in just a few days. Their team was professional, efficient, and paid great attention to detail. We truly appreciate their hard work and highly recommend their services!",
+        clientImg: "/pages/home/testimonial/madhawa.png"
     }
 ];
 
