@@ -75,7 +75,7 @@ function HomeHero() {
                             Shaping the Future of Identify
                         </p>
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-inter-semibold mx-auto mb-8">Smart Digital Solutions <br className='hidden lg:block' />
+                    <h1 className="text-4xl min-h-[160px] md:text-5xl lg:text-6xl text-white font-inter-semibold mx-auto mb-8">Smart Digital Solutions <br className='hidden lg:block' />
                         For your{" "} <span className='gradient-text-anime' ref={homeHeaidngTextSpanRef}>Business Growth</span></h1>
 
                     <p className='text-base md:text-lg font-inter-light text-white max-w-[512px] mx-auto mb-6'>Expert development and  Ai Powered Annotation Solutions
