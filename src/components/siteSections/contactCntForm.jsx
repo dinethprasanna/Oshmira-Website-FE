@@ -77,7 +77,7 @@ function ContactCnthtmlForm() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card h-fit max-w-6xl p-5 md:px-12 pt-0 col-span-1 lg:col-span-2" id="htmlForm">
+                            <div className="card h-fit max-w-6xl p-0 md:px-12 pt-0 col-span-1 lg:col-span-2" id="htmlForm">
                                 <form id="contacthtmlForm" onSubmit={handleSubmit}>
                                     <div className="mb-6">
                                         <div className="mx-0 mb-1 sm:mb-4">

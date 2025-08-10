@@ -205,12 +205,13 @@ function SolutionRantoPosPage() {
                 <div id="video" className="hidden aspect-video relative ">
                   <iframe
                     className="absolute inset-0 w-full h-full"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
-                    title="The Artist Barefoot Showcase"
-                    frameBorder="0"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    src="https://www.youtube.com/embed/KYr8rJKsKEs"
+                    title="Ranto POS  System"
+                    frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    referrerpolicy="strict-origin-when-cross-origin"
                     allowFullScreen
-                  ></iframe>
+                  ></iframe>                  
                 </div>
               </div>
             </div>
@@ -311,13 +312,13 @@ function SolutionRantoPosPage() {
                       className="ml-2 w-[56px] h-auto object-contain"
                     />
                   </li>
-                </ul>                
+                </ul>
               </div>
 
               <div className="p-6 border-t-4 border-t-green-500">
                 <h2 className="text-2xl font-bold text-white text-center mb-4">
                   Ranto POS System
-                </h2>                
+                </h2>
                 <ul className="space-y-3 my-6 text-white text-base md:text-lg">
                   <li className="flex items-center justify-between">
                     <span>Inventory Management</span>
@@ -400,7 +401,7 @@ function SolutionRantoPosPage() {
                     />
                   </li>
                 </ul>
-                
+
               </div>
             </div>
 
