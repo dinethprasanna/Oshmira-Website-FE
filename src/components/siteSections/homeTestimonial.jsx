@@ -12,22 +12,22 @@ import 'aos/dist/aos.css';
 
 const testimonials = [
     {
-        clientName: "Mr.Suahn",
-        designation: "Owner",
+        clientName: "Mr.Suhan Fernando",
+        designation: "Owner - Carters Cleaning Company",
         clientReview: "I explained the design and flow I wanted for my Toursim website, and Oshmira Solutions brought it to life perfectly. They also created a unique business logo that truly reflects my brand. I’m extremely happy with their creativity, professionalism, and attention to detail. I highly recommend them to anyone looking for quality web design and branding services",
-        clientImg: "/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "/pages/home/testimonial/suhan-fernando.png"
     },
     {
         clientName: "Renee Carter",
         designation: "Owner",
         clientReview: "I am very happy with how quickly i got my post and how good it is. I am sure i will now get more clients from this post. Thank you so much for taking time out and doing this for me",
-        clientImg: "/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "/pages/home/testimonial/renee-carter.png"
     },
     {
         clientName: "Chamil Wijewardhana",
         designation: "Manager",
         clientReview: "ZKME Tool has truly transformed some of our company’s processes by automating tasks that used to be manual. We now spend significantly less time on these tasks, which has greatly increased our efficiency. It has also made managing paper costs much easier for us.",
-        clientImg: "/pages/home/testimonial/sample-client-profile.png"
+        clientImg: "/pages/home/testimonial/chamil-wijewardhana.png"
     },
     {
         clientName: "Mr.Sajith bandara",

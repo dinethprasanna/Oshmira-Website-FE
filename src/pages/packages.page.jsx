@@ -1,5 +1,7 @@
 import BreadcrumbHeroSection from "@/components/siteSections/breadcrumbHeroSection";
-import CTA from "@/components/siteSections/cta";
+import OurClientsLogoSlider from "@/components/siteSections/ourClientsLogoSlider";
+import PackagesBottomCont from "@/components/siteSections/packagesBottomCont";
+import PackagesShopifyPlan from "@/components/siteSections/packagesShopifyPlan";
 import PackagesWebDevPlan from "@/components/siteSections/packagesWebDevPlan";
 
 function PackagesPage() {
@@ -8,7 +10,9 @@ function PackagesPage() {
             <main className="mx-auto w-full min-h-[80vh]">
                 <BreadcrumbHeroSection title={"Our"} gradientTitle={"Packages"} breadcrumb={'Home / Packages'}/>
                 <PackagesWebDevPlan />
-                <CTA />
+                <PackagesShopifyPlan />
+                <PackagesBottomCont />
+                <OurClientsLogoSlider />
             </main>
         </>
     );

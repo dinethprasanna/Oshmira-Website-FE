@@ -24,16 +24,16 @@ const clientLogoImages = [
 function OurClientsLogoSlider() {
     Aos.init({duration:2000});
     return (
-        <section className="our-clients-logo-slider relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
+        <section className="our-clients-logo-slider relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24" data-aos="fade-up">
             <div className="testimonial-label label-border-animation py-2 px-2 rounded-md bg-(--bg-second-col) block mb-6 max-w-fit min-w-[150px] md:min-w-[186px] mx-auto" data-aos="zoom-in">
                 <p className="font-inter-semibold text-white text-xs text-center">
                     Brands We Work With
                 </p>
             </div>
-            <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3" data-aos="fade-up">Our <span className='gradient-text-anime'>Clients</span></h2>
-            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[640px] mx-auto mb-6' data-aos="fade-up">We’re proud to work with brands that value quality and creativity. Here are some of the clients we’ve partnered with over the years.</p>
+            <h2 className="text-white text-center font-inter-semibold text-2xl md:text-3xl lg:text-4xl mb-3">Our <span className='gradient-text-anime'>Clients</span></h2>
+            <p className='text-base md:text-lg font-inter-light text-white text-center max-w-[640px] mx-auto mb-6' >We’re proud to work with brands that value quality and creativity. Here are some of the clients we’ve partnered with over the years.</p>
 
-            <div className="our-clients-logo-slider-wrapper max-w-[820px] mx-auto  px-2 rounded-2xl" data-aos="fade-up">
+            <div className="our-clients-logo-slider-wrapper max-w-[820px] mx-auto  px-2 rounded-2xl">
                 <Swiper
                     slidesPerView={3}
                     loop={true}
