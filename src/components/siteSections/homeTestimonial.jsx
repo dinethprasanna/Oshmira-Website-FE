@@ -46,12 +46,6 @@ const testimonials = [
         designation: "Founder - Angis property Groups",
         clientReview: "I had the pleasure of working with Oshmira to build my website, and I couldn’t be happier with the results. From the very first conversation, their team was professional, attentive, and genuinely interested in understanding my vision.",
         clientImg: "/pages/home/testimonial/raditha-angelo.png"
-    },
-    {
-        clientName: "Madhawa",
-        designation: "Owner - Delssuper (Pvt) ltd",
-        clientReview: "Oshmira developed our Del\'Super e-commerce website - clean, fully functional, and delivered in just a few days. Their team was professional, efficient, and paid great attention to detail. We truly appreciate their hard work and highly recommend their services!",
-        clientImg: "/pages/home/testimonial/madhawa.png"
     }
 ];
 
