@@ -8,7 +8,7 @@ function BreadcrumbHeroSection({ title, gradientTitle, breadcrumb }) {
     const containerRef = useRef(null);
 
     useEffect(() => {
-        Aos.init({duration:2000});
+        Aos.init({duration:1000});
         
         //hero lottie animation
         const anim = lottie.loadAnimation({

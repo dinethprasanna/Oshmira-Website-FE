@@ -55,7 +55,7 @@ function SolutionsCardsGrid() {
                             <div className="shine-card"></div>
 
                             {card.link && (                                
-                                <Link to={card.link} className="text-left block mt-3 p-0"><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500 text-left p-0">View Our Services <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
+                                <Link to={card.link} className="text-left block mt-3 p-0"><Button variant="link" className="font-inter-semibold transition-colors hover:text-orange-500 text-left p-0">View More <img src="/icons/right-white-arrow.png" alt="Arrow" /></Button></Link>
                             )}
                         </div>
                     </div>

@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 
 const testimonials = [
     {
-        clientName: "Mr.Sajith Bandara",
+        clientName: "Sajith Bandara",
         designation: "Founder - GlobalTrans Logistics (Pvt) Ltd",
         clientReview: "We are extremely happy with the outstanding service provided by Oshmira Solutions (Pvt) Ltd. They developed our website with great attention to detail, creativity, and professionalism. The team was very responsive, easy to work with, and delivered everything on time.",
         clientImg: "/pages/home/testimonial/sajith-bandara.png"
@@ -24,25 +24,31 @@ const testimonials = [
         clientImg: "/pages/home/testimonial/renee-carter.png"
     },
     {
-        clientName: "Mr.Suhan Fernando",
+        clientName: "Suhan Himash",
         designation: "Owner - TourLions (Pvt) ltd",
         clientReview: "I explained the design and flow I wanted for my Toursim website, and Oshmira Solutions brought it to life perfectly. They also created a unique business logo that truly reflects my brand. I’m extremely happy with their creativity, professionalism, and attention to detail.",
-        clientImg: "/pages/home/testimonial/suhan-fernando.png"
+        clientImg: "/pages/home/testimonial/suhan-himash.png"
     },
     {
-        clientName: "Mr.Prageeth Patabadige",
+        clientName: "Prageeth Patabadige",
         designation: "Business Development Executive - CTK Cricketshop(Pvt)ltd",
         clientReview: "Ranto POS from Oshmira Solutions streamlined our store.easy inventory control, clear profit tracking, and no paper waste. Best software for our business!",
         clientImg: "/pages/home/testimonial/prageeth-patabadige.png"
     },
     {
-        clientName: "Mr.Chamil Wijewardhana",
+        clientName: "Chamil Wijewardhana",
         designation: "Accountant - Mansalawa (Pvt)ltd",
         clientReview: "ZKME Tool has truly transformed some of our company’s processes by automating tasks that used to be manual. We now spend significantly less time on these tasks, which has greatly increased our efficiency. It has also made managing paper costs much easier for us.",
         clientImg: "/pages/home/testimonial/chamil-wijewardhana.png"
     },
     {
-        clientName: "Mr.Madhawa",
+        clientName: "Raditha Angelo",
+        designation: "Founder - Angis property Groups",
+        clientReview: "I had the pleasure of working with Oshmira to build my website, and I couldn’t be happier with the results. From the very first conversation, their team was professional, attentive, and genuinely interested in understanding my vision.",
+        clientImg: "/pages/home/testimonial/raditha-angelo.png"
+    },
+    {
+        clientName: "Madhawa",
         designation: "Owner - Delssuper (Pvt) ltd",
         clientReview: "Oshmira developed our Del\'Super e-commerce website - clean, fully functional, and delivered in just a few days. Their team was professional, efficient, and paid great attention to detail. We truly appreciate their hard work and highly recommend their services!",
         clientImg: "/pages/home/testimonial/madhawa.png"
@@ -51,7 +57,7 @@ const testimonials = [
 
 
 function HomeTestimonial() {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
     return (
         <section className="home-testimonial-section relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
             <div className="testimonial-label label-border-animation py-2 px-2 rounded-md bg-(--bg-second-col) block mb-6 max-w-fit min-w-[120px] md:min-w-[186px] mx-auto" data-aos="zoom-in">

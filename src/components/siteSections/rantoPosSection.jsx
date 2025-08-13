@@ -4,7 +4,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 function RantoPosSection() {
-    Aos.init({duration:2000});
+    Aos.init({duration:1000});
     return (
         <section className="ranto-pos-section relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
             <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-9 lg:gap-12 py-8 md:py-9 lg:py-12 px-8 md:px-9 lg:px-12 rounded-md bg-(--bg-second-col) shadow-[-1px_1px_2px_rgba(255,255,255,0.4)_inset]" data-aos="zoom-in-up">

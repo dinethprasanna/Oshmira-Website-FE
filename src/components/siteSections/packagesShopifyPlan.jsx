@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { Button } from '../ui/button';
 
 function PackagesShopifyPlan() {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
     return (
         <section className="our-shopify-pricing-plan-section relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
             <div className="container mx-auto text-white" data-aos="fade-up">

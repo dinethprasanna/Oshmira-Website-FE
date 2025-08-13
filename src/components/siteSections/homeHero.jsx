@@ -22,7 +22,7 @@ function HomeHero() {
     ];
 
     useEffect(() => {
-        Aos.init({duration:2000});
+        Aos.init({duration:600});
         // Register plugin
         gsap.registerPlugin(TextPlugin);
 
@@ -37,7 +37,7 @@ function HomeHero() {
                     setTimeout(() => {
                         index = (index + 1) % phrases.length;
                         animateText();
-                    }, 2000); // wait 2s before next change
+                    }, 400);
                 }
             });
         };

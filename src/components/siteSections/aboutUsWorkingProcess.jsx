@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 
 
 function AboutUsWorkingProcess() {
-    Aos.init({duration:2000});
+    Aos.init({duration:1000});
     return (
         <section className="about-us-working-process relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
             <div className="about-us-working-process-label label-border-animation py-2 px-2 rounded-md bg-(--bg-second-col) block mb-6 max-w-fit min-w-[120px] md:min-w-[186px] mx-auto" data-aos="zoom-in">

@@ -6,7 +6,7 @@ import { Button } from '../ui/button';
 
 
 function PackagesWebDevPlan() {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
     return (
         <section className="our-web-dev-pricing-plan-section relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 py-8 md:py-16 lg:py-24">
 

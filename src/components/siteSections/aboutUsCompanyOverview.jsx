@@ -4,7 +4,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 function AboutUsCompanyOverview() {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 600 });
     return (
         <section className="about-us-company-overview-section relative w-full max-w-(--max-width) mx-auto px-3 md:px-6 lg:px-4 ">
             <div className="abt-company-info grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-x-[42px] lg:gap-x-[58px] text-white py-8 md:py-16 lg:py-24">
@@ -44,7 +44,7 @@ function AboutUsCompanyOverview() {
                 <div className="right-col col-span-1 md:grid grid-cols-1 md:col-span-3 gap-4 md:gap-6 h-full" data-aos="fade-left">
                     <div className="flex flex-col justify-center h-full gap-6">
                         <div className="rounded-3xl shine-card-overlay px-4 md:px-8 lg:px-10 py-4 md:py-6 lg:py-8 flex flex-row gap-4 justify-start bg-(--bg-second-col) shadow-[-1px_1px_2px_rgba(255,255,255,0.4)_inset]">
-                            <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">
+                            <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725] min-w-[52px]">
                                 <img alt="Our Vision" className="w-[58px] h-auto object-contain" src="/icons/our-vision.png" />
                             </div>
                             <div className="card-info text-white max-w-[594px]">
@@ -54,7 +54,7 @@ function AboutUsCompanyOverview() {
                             <div className="shine-card"></div>
                         </div>
                         <div className="rounded-3xl shine-card-overlay px-4 md:px-8 lg:px-10 py-4 md:py-6 lg:py-8 flex flex-row gap-4 justify-start bg-(--bg-second-col) shadow-[-1px_1px_2px_rgba(255,255,255,0.4)_inset]">
-                            <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">
+                            <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725] min-w-[52px]">
                                 <img alt="Our Mission" className="w-[58px] h-auto object-contain" src="/icons/our-mission.png" />
                             </div>
                             <div className="card-info text-white max-w-[594px]">
@@ -64,7 +64,7 @@ function AboutUsCompanyOverview() {
                             <div className="shine-card"></div>
                         </div>
                         <div className="rounded-3xl shine-card-overlay px-4 md:px-8 lg:px-10 py-4 md:py-6 lg:py-8 flex flex-row gap-4 justify-start bg-(--bg-second-col) shadow-[-1px_1px_2px_rgba(255,255,255,0.4)_inset]">
-                            <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725]">
+                            <div className="point-no text-xl md:text-2xl font-inter-semibold text-[#FF6725] min-w-[52px]">
                                 <img alt="Our Goal" className="w-[58px] h-auto object-contain" src="/icons/our-goal.png" />
                             </div>
                             <div className="card-info text-white max-w-[594px]">
